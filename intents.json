@@ -1,0 +1,177 @@
+{
+  "brand": "SpotifyCares",
+  "version": "1.0",
+  "derivation_method": "keyword frequency analysis + bigram analysis + manual inspection of 11,938 SpotifyCares interactions",
+  "intents": [
+    {
+      "name": "playback_issue",
+      "description": "Music stops, skips, shuffles incorrectly, buffers, or fails to play at all.",
+      "inclusion_criteria": [
+        "Song stops mid-play or at end of track",
+        "Shuffle not working or playing in wrong order",
+        "Buffering, freezing, or spinning loader during playback",
+        "Audio cuts out or drops",
+        "Crossfade or gapless playback problems"
+      ],
+      "exclusion_criteria": [
+        "App crashes entirely before playback starts (-> app_bug)",
+        "Downloaded songs won't play offline (-> download_offline)",
+        "Can't find a specific song to play (-> content_search)"
+      ],
+      "representative_examples": [
+        "when i have it on shuffle it turns off when the song is done and just plays in order",
+        "spotify keeps stopping after every song even though i have premium",
+        "music keeps buffering on wifi but works fine on data"
+      ]
+    },
+    {
+      "name": "app_bug",
+      "description": "The Spotify app crashes, freezes, shows errors, won't open, or behaves unexpectedly after an update.",
+      "inclusion_criteria": [
+        "App crashes or force-closes",
+        "App won't open or shows blank/black screen",
+        "Error messages or error codes displayed",
+        "App broken after an OS or Spotify update",
+        "UI glitches, missing buttons, or layout broken"
+      ],
+      "exclusion_criteria": [
+        "Playback-specific issues where app is open and running (-> playback_issue)",
+        "Login screen errors (-> account_login)",
+        "Download/sync failures (-> download_offline)"
+      ],
+      "representative_examples": [
+        "the app keeps crashing every time i open it since the latest update",
+        "getting a error code 4 whenever i try to load spotify",
+        "app is completely blank after updating to ios 11"
+      ]
+    },
+    {
+      "name": "account_login",
+      "description": "Problems logging in, resetting passwords, linking/unlinking social accounts, or accessing an account.",
+      "inclusion_criteria": [
+        "Can't log in or sign in",
+        "Forgot password or password reset not working",
+        "Facebook/Google login issues",
+        "Account locked or suspended",
+        "Wrong email address on account",
+        "Two accounts merged or duplicate account"
+      ],
+      "exclusion_criteria": [
+        "Billing or subscription issues after login (-> premium_billing)",
+        "App crashes before login screen appears (-> app_bug)"
+      ],
+      "representative_examples": [
+        "i'm using my facebook account to log in but it keeps saying wrong password",
+        "i forgot the email i used to sign up and can't reset my password",
+        "my account got locked and i can't get back in"
+      ]
+    },
+    {
+      "name": "premium_billing",
+      "description": "Questions or problems about Premium subscriptions, payments, charges, cancellations, refunds, or free trials.",
+      "inclusion_criteria": [
+        "Unexpected charge or double charge",
+        "Free trial ended unexpectedly",
+        "Can't cancel subscription",
+        "Refund request",
+        "Premium features not working despite active subscription",
+        "Student/family plan issues",
+        "Payment method update"
+      ],
+      "exclusion_criteria": [
+        "General app bugs unrelated to billing (-> app_bug)",
+        "Asking what Premium includes (-> general_inquiry)"
+      ],
+      "representative_examples": [
+        "i was charged twice this month for premium",
+        "i cancelled my subscription but i'm still being billed",
+        "my free trial ended but i never agreed to be charged"
+      ]
+    },
+    {
+      "name": "download_offline",
+      "description": "Problems downloading songs/playlists for offline listening, syncing across devices, or storage issues.",
+      "inclusion_criteria": [
+        "Songs or playlists won't download",
+        "Downloaded songs disappear or get removed",
+        "Offline mode not working",
+        "Sync issues between devices",
+        "Storage limit reached for downloads",
+        "Downloads stuck or very slow"
+      ],
+      "exclusion_criteria": [
+        "Streaming (non-downloaded) playback issues (-> playback_issue)",
+        "General app crashes (-> app_bug)"
+      ],
+      "representative_examples": [
+        "i'm able to play the playlist on my computer but it won't sync to my phone",
+        "my downloaded songs keep disappearing every time i restart the app",
+        "offline mode says i have no songs even though i downloaded them"
+      ]
+    },
+    {
+      "name": "content_search",
+      "description": "Can't find songs, albums, artists, or playlists; content missing from library; search not returning expected results.",
+      "inclusion_criteria": [
+        "Song, album, or artist not appearing in search",
+        "Content available in one region but not another",
+        "Playlist missing or deleted",
+        "Library not showing recently added content",
+        "Collaborative playlist issues",
+        "Podcast or episode not found"
+      ],
+      "exclusion_criteria": [
+        "Downloaded content not playing (-> download_offline)",
+        "Playback issues after finding content (-> playback_issue)"
+      ],
+      "representative_examples": [
+        "there is no way to manage Albums in the App, recently added ones don't show",
+        "i can't find this album on spotify but it's on apple music",
+        "my playlist disappeared and i can't find it anywhere"
+      ]
+    },
+    {
+      "name": "general_inquiry",
+      "description": "General questions about Spotify features, how-to questions, feedback, or messages that don't fit a specific problem category.",
+      "inclusion_criteria": [
+        "How-to questions about app features",
+        "Feature requests or suggestions",
+        "General feedback (positive or negative)",
+        "Questions about availability in a country/region",
+        "Questions about device compatibility"
+      ],
+      "exclusion_criteria": [
+        "Any message describing a specific technical problem (-> appropriate specific intent)",
+        "Billing questions (-> premium_billing)",
+        "Messages that genuinely don't fit any category (-> other)"
+      ],
+      "representative_examples": [
+        "can you make it a feature that i can enable crossfade on mobile",
+        "is spotify available in india yet",
+        "love the new update, just wanted to say thanks"
+      ]
+    },
+    {
+      "name": "other",
+      "description": "Messages that do not fit any of the 7 support intents. Includes off-topic messages, messages addressed to the wrong brand, spam, pure URLs with no text, or messages so short and context-free that no intent can be assigned.",
+      "inclusion_criteria": [
+        "Message is not about Spotify at all",
+        "Message is addressed to a different brand",
+        "Message is spam or automated",
+        "Standalone one-word replies with no context (e.g. 'yes', 'ok', 'no')",
+        "Pure URL with no accompanying text"
+      ],
+      "exclusion_criteria": [
+        "Short follow-up messages where the underlying issue can be inferred (-> inferred intent)",
+        "Vague messages that are clearly about a Spotify problem (-> general_inquiry)"
+      ],
+      "representative_examples": [
+        "yes",
+        "ok",
+        "https://t.co/xxxxxx"
+      ],
+      "routing": "ESCALATE",
+      "routing_rationale": "Cannot determine intent safely; human review required."
+    }
+  ]
+}
