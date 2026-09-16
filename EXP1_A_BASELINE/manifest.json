@@ -1,0 +1,316 @@
+{
+  "experiment_id": "EXP1_A_BASELINE",
+  "random_state": 42,
+  "sampling": "Existing rule labels and full training split; no sampling.",
+  "training_counts": {
+    "playback_issue": 226,
+    "app_bug": 206,
+    "account_login": 181,
+    "premium_billing": 392,
+    "download_offline": 253,
+    "content_search": 37,
+    "general_inquiry": 7211
+  },
+  "validation_counts": {
+    "playback_issue": 28,
+    "app_bug": 26,
+    "account_login": 23,
+    "premium_billing": 49,
+    "download_offline": 31,
+    "content_search": 5,
+    "general_inquiry": 902
+  },
+  "test_counts": {
+    "playback_issue": 28,
+    "app_bug": 26,
+    "account_login": 22,
+    "premium_billing": 49,
+    "download_offline": 32,
+    "content_search": 5,
+    "general_inquiry": 902
+  },
+  "validation": {
+    "n": 1064,
+    "accuracy": 0.9633458646616542,
+    "macro_f1": 0.8182014998792599,
+    "weighted_f1": 0.9605766030417243,
+    "classification_report": {
+      "playback_issue": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 28.0
+      },
+      "app_bug": {
+        "precision": 1.0,
+        "recall": 0.5769230769230769,
+        "f1-score": 0.7317073170731707,
+        "support": 26.0
+      },
+      "account_login": {
+        "precision": 0.9047619047619048,
+        "recall": 0.8260869565217391,
+        "f1-score": 0.8636363636363636,
+        "support": 23.0
+      },
+      "premium_billing": {
+        "precision": 0.9761904761904762,
+        "recall": 0.8367346938775511,
+        "f1-score": 0.9010989010989011,
+        "support": 49.0
+      },
+      "download_offline": {
+        "precision": 1.0,
+        "recall": 0.8064516129032258,
+        "f1-score": 0.8928571428571429,
+        "support": 31.0
+      },
+      "content_search": {
+        "precision": 0.6666666666666666,
+        "recall": 0.4,
+        "f1-score": 0.5,
+        "support": 5.0
+      },
+      "general_inquiry": {
+        "precision": 0.9626467449306296,
+        "recall": 1.0,
+        "f1-score": 0.9809679173463839,
+        "support": 902.0
+      },
+      "accuracy": 0.9633458646616542,
+      "macro avg": {
+        "precision": 0.9300379703642397,
+        "recall": 0.7423137628893705,
+        "f1-score": 0.8182014998792599,
+        "support": 1064.0
+      },
+      "weighted avg": {
+        "precision": 0.9636123631612955,
+        "recall": 0.9633458646616542,
+        "f1-score": 0.9605766030417243,
+        "support": 1064.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        21,
+        0,
+        1,
+        0,
+        0,
+        0,
+        6
+      ],
+      [
+        0,
+        15,
+        1,
+        1,
+        0,
+        1,
+        8
+      ],
+      [
+        0,
+        0,
+        19,
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        41,
+        0,
+        0,
+        8
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        25,
+        0,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        902
+      ]
+    ],
+    "prediction_distribution": {
+      "playback_issue": 21,
+      "app_bug": 15,
+      "account_login": 21,
+      "premium_billing": 42,
+      "download_offline": 25,
+      "content_search": 3,
+      "general_inquiry": 937
+    },
+    "confidence": {
+      "mean": 0.9837472716220773,
+      "min": 0.3426283551760627,
+      "max": 0.9999999417789928
+    }
+  },
+  "test": {
+    "n": 1064,
+    "accuracy": 0.9605263157894737,
+    "macro_f1": 0.7394905872296283,
+    "weighted_f1": 0.9562556808718247,
+    "classification_report": {
+      "playback_issue": {
+        "precision": 1.0,
+        "recall": 0.6785714285714286,
+        "f1-score": 0.8085106382978723,
+        "support": 28.0
+      },
+      "app_bug": {
+        "precision": 1.0,
+        "recall": 0.6153846153846154,
+        "f1-score": 0.7619047619047619,
+        "support": 26.0
+      },
+      "account_login": {
+        "precision": 1.0,
+        "recall": 0.7272727272727273,
+        "f1-score": 0.8421052631578947,
+        "support": 22.0
+      },
+      "premium_billing": {
+        "precision": 0.9767441860465116,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.9130434782608695,
+        "support": 49.0
+      },
+      "download_offline": {
+        "precision": 0.9,
+        "recall": 0.84375,
+        "f1-score": 0.8709677419354839,
+        "support": 32.0
+      },
+      "content_search": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 5.0
+      },
+      "general_inquiry": {
+        "precision": 0.9605963791267306,
+        "recall": 1.0,
+        "f1-score": 0.979902227050516,
+        "support": 902.0
+      },
+      "accuracy": 0.9605263157894737,
+      "macro avg": {
+        "precision": 0.8339057950247489,
+        "recall": 0.6745888040530897,
+        "f1-score": 0.7394905872296283,
+        "support": 1064.0
+      },
+      "weighted avg": {
+        "precision": 0.9578180442561937,
+        "recall": 0.9605263157894737,
+        "f1-score": 0.9562556808718247,
+        "support": 1064.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        19,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9
+      ],
+      [
+        0,
+        16,
+        0,
+        0,
+        1,
+        0,
+        9
+      ],
+      [
+        0,
+        0,
+        16,
+        1,
+        0,
+        0,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        42,
+        2,
+        0,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        27,
+        1,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        902
+      ]
+    ],
+    "prediction_distribution": {
+      "playback_issue": 19,
+      "app_bug": 16,
+      "account_login": 16,
+      "premium_billing": 43,
+      "download_offline": 30,
+      "content_search": 1,
+      "general_inquiry": 939
+    },
+    "confidence": {
+      "mean": 0.983282923488735,
+      "min": 0.4119224356033118,
+      "max": 0.9999996918757342
+    }
+  }
+}
