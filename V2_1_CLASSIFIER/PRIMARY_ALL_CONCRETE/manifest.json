@@ -1,0 +1,20 @@
+{
+  "experiment": "PRIMARY_ALL_CONCRETE",
+  "seed": 42,
+  "class_weight": "balanced",
+  "candidates": 1684,
+  "split_sizes": {
+    "train": 1347,
+    "validation": 168,
+    "test": 169
+  },
+  "intents": [
+    "playback_issue",
+    "app_bug",
+    "account_login",
+    "premium_billing",
+    "download_offline",
+    "content_search",
+    "general_inquiry"
+  ]
+}

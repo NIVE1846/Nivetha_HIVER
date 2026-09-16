@@ -1,0 +1,20 @@
+{
+  "experiment": "SENSITIVITY_SINGLE_RULE",
+  "seed": 42,
+  "class_weight": "balanced",
+  "candidates": 943,
+  "split_sizes": {
+    "train": 755,
+    "validation": 94,
+    "test": 94
+  },
+  "intents": [
+    "playback_issue",
+    "app_bug",
+    "account_login",
+    "premium_billing",
+    "download_offline",
+    "content_search",
+    "general_inquiry"
+  ]
+}
