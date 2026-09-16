@@ -162,18 +162,21 @@ python evaluation/agreement.py
 The repository contains an isolated real-LLM judge adapter in
 `evaluation/llm_judge.py` and runner in `evaluation/run_llm_judge.py`. The
 runner uses an open Hugging Face instruction model and never falls back to the
-deterministic `evaluation/judge.py` or fabricates scores. `transformers==4.41.2`
-and `torch==2.3.1` were installed for this experiment. Small Flan-T5 models
-and Qwen 0.5B executed but did not produce the required rubric JSON; Qwen
-1.5B loaded but exceeded five minutes for one CPU prompt. Therefore no
-`llm_judge_sample.csv` was produced.
+deterministic `evaluation/judge.py` or fabricates scores. `transformers==4.41.2` and `torch==2.3.1` were installed for this experiment.
+The completed run uses `HuggingFaceTB/SmolLM2-360M-Instruct` on CPU and
+generated outputs for all 50 sample responses. Results are saved to
+`evaluation/llm_judge_sample.csv`. However, all five criteria were scored 1/5
+for every example. Follow-up three-example probing showed structured-output
+failures, so this run is retained as an attempted LLM-as-judge experiment but
+is rejected as a meaningful response-quality metric. It is not used for
+headline claims or agreement calculations.
 
 Prepare the blank human form for the same 50 existing response examples:
 ```bash
 python evaluation/prepare_response_evaluation.py
 ```
 
-After installing and verifying a sufficiently fast local model, run:
+To rerun the real local judge:
 ```bash
 python evaluation/run_llm_judge.py
 python evaluation/agreement.py
@@ -238,7 +241,7 @@ separate from the isolated V2.1 evaluation.
 ### Tests
 ```bash
 python -m pytest tests/ -v
-# Current local result: 22 tests passed
+# Current local result: 65 tests passed
 ```
 
 ---
@@ -288,13 +291,14 @@ confidence values, so V2.1 was not used for production routing.
 | Metric | Value |
 |--------|-------|
 | Auto-handle rate | 0.6207 |
-| Auto-handle precision | 0.6349 |
-| Unsafe auto-handle rate | 0.3651* |
-| Escalation recall (high-risk) | 0.8793 |
+| Auto-handle precision | 0.1190 |
+| Unsafe auto-handle rate | 0.8810* |
+| Escalation recall (high-risk) | 0.3966 |
 
-*See "What is misleading" section in reports/results.md — this is inflated by label leakage.
+*These are historical legacy-pipeline metrics computed against the completed
+human-golden intent labels. They should not be attributed to V2.1 routing.
 
-### Historical / legacy response quality (Rule-based judge, 126 auto-handled responses)
+### Historical / legacy response quality (deterministic rule-based judge, 126 auto-handled responses)
 
 | Dimension | Score (1-5) |
 |-----------|------------|
@@ -341,4 +345,5 @@ On this machine, PyTorch DLLs are blocked by Windows Application Control policy.
 Template mode is used for all local evaluation.
 
 The deterministic judge in `evaluation/judge.py` is retained as a historical
-local heuristic and is not called an LLM-as-judge.
+local heuristic and is not called an LLM-as-judge. The SmolLM2 judge attempt
+produced degenerate numeric scores and is excluded from response-quality claims.
