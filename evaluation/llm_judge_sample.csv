@@ -1,0 +1,551 @@
+example_id,customer_message,historical_evidence,generated_response,correctness_llm,groundedness_llm,relevance_llm,helpfulness_llm,tone_llm,overall_llm,llm_reason
+GS_0116,If you’re gonna drastically change things at least give us a walk through so we know how things work and where you moved things to. But right now I can’t search for an artist or find any of my saved playlists or my curated “radio stations”,"Example 1: Customer: This page doesn't speak to ""why"" limit exists at all. Also, If you're going to limit users' library size you could at least give us an easy way to manage them on mobile. I have to manually remove every individual track from an artist. Wish 
+Support: 2: On a different note, we have this limitation due to licensing reasons. Let us know if we can help with anything else /RC
+Similarity: 0.1221
+
+Example 2: Customer: This page doesn't speak to ""why"" limit exists at all. Also, If you're going to limit users' library size you could at least give us an easy way to manage them on mobile. I have to manually remove every individual track from an artist. Wish 
+Support: 1: We appreciate you sharing your thoughts. We're passing on all feedback about this.
+Similarity: 0.1221
+
+Example 3: Customer: Thx! Hope you fix it, or at least give users the option to choose what kind of media they want to see in their ""Top Recommendations.""
+Support: Thanks. We'll make sure to pass your thoughts on to the right team. If there's anything else, just let us know /AU
+Similarity: 0.0815",1: We appreciate you sharing your thoughts. We're passing on all feedback about this.,1,1,1,1,1,1,"We appreciate you sharing your thoughts. We're passing on all feedback about this. If there's anything else, just let us know /AU"
+GS_0026,That’s how it looks now. I can’t find any daily mix’s https://t.co/vOIhDLMFP6,"Example 1: Customer: What I’m asking is, how can I find the other, older versions (e.g. if I didn’t already have them saved). istr there used to be an “x more release(s)” link at the bottom of the track listing page for an album, but in this case I can’t find i
+Support: Thanks for clearing that up. The feature is currently unavailable, but we hear you 🎧 Rest assured, your feedback will be passed on to the right folks /QI
+Similarity: 0.0857
+
+Example 2: Customer: Thank you for putting with me but that’s not quite the problem I have. Okay so see how there is 2 playlists called “under” well 1 of those is a radio. Now I can’t delete the radio the same way I can delete my playlist. So how do I delete it
+Support: Hmm. Can you DM us your account's username or email address? We'll check backstage /NG https://t.co/ldFdZRiNAt
+Similarity: 0.0760
+
+Example 3: Customer: Sure - where do I find the email address that I used? I can only find my username. Thank you!
+Support: Can you send us a screenshot of your Account overview page showing your username: https://t.co/cnaaFIwigZ via DM? We'll check it out /RC https://t.co/ldFdZRiNAt
+Similarity: 0.0585","Hmm. Just to check, do you have an alternative device that you can use to access Twitter and your Premium for Family overview page? /KB",1,1,1,1,1,1,"We're sorry, but as of now, we're unable to provide the feature you requested. Please let us know if you'd like to try again in the future."
+GS_0187,"its not available here, so when will it be? https://t.co/Bc1zzZhoky","Example 1: Customer: when will it be available?
+Support: We don't have any more info about this right now. Fingers crossed it'll be available soon. Stay tuned /BH
+Similarity: 0.4500
+
+Example 2: Customer: When will it be available??
+Support: We don't have any info on this right now, but we'll have it available to you as soon as it’s available to us /AN
+Similarity: 0.4500
+
+Example 3: Customer: When will it be available?
+Support: Fingers crossed we'll be able to have it soon, but there's more info about Spotify content here: https://t.co/0i8GpimuDa /TR
+Similarity: 0.4500",We're afraid we don't have any info on this right now. Fingers crossed we'll be able to have it soon! /NS,1,1,1,1,1,1,We're afraid we don't have any info on this right now. Fingers crossed we'll be able to have it soon! /NS
+GS_0107,There's an album by Incubus (Fungus Amongus) that has one playable track. I can see the rest but not play them. Any idea as to why?,"Example 1: Customer: As you can see, there's no option to play the album immediately. If I add to queue, it gets pushed to the end. https://t.co/RgjMfd58X5
+Support: Hmm. Can you DM us your account's username or email address? We'll take a look backstage /LS https://t.co/ldFdZRiNAt
+Similarity: 0.0733
+
+Example 2: Customer: What I’m asking is, how can I find the other, older versions (e.g. if I didn’t already have them saved). istr there used to be an “x more release(s)” link at the bottom of the track listing page for an album, but in this case I can’t find i
+Support: Thanks for clearing that up. The feature is currently unavailable, but we hear you 🎧 Rest assured, your feedback will be passed on to the right folks /QI
+Similarity: 0.0686
+
+Example 3: Customer: Why is there an option to turn it off when it doesn't turn off?
+Support: This option disables the feature from appearing automatically on top of the album art. We hope this clarifies things /JP
+Similarity: 0.0684",Thanks for letting us know. Fingers crossed we’ll have it available to you as soon as it’s available to us! More info here: https://t.co/0i8GpimuDa. Give us a shout if you have questions /XF,1,1,1,1,1,1,We hope this clarifies things /JP
+GS_0155,"Like I am playing the Global Top 50 Album here. In most services you have repeat all, repeat song, repeat off. With Spotify only ""Enable repeat one"" is available and that too doesn't work as the song isn't put in a loop even after enabling it. https://t.co/NBoh6YSxCC","Example 1: Customer: Like I am playing the Global Top 50 Album here. In most services you have repeat all, repeat song, repeat off. With Spotify only ""Enable repeat one"" is available and that too doesn't work as the song isn't put in a loop even after enabling 
+Support: Thanks for the feedback. Just to check, is the same thing happening on different browsers/incognito window when ""enable repeat"" is on? /JD
+Similarity: 1.0000
+
+Example 2: Customer: The normal 3 state is a 2 state on these devices: no repeat and repeat all
+Support: Hmm, that's odd. Does logging out &gt; restarting your devices &gt; logging back in help at all? Keep us posted /MT
+Similarity: 0.1156
+
+Example 3: Customer: Premium &amp; when i️ have it on shuffle it turns off when the song is done and just plays in order and the repeat lights up but doesn’t repeat
+Support: Hmm. Can you try restarting your device by holding the Sleep/Wake + Volume Down buttons for 10 seconds? Keep us posted /LS
+Similarity: 0.1066",Hmm. Can you try restarting your device by holding the Sleep/Wake + Volume Down buttons for 10 seconds? Keep us posted /LS,1,1,1,1,1,1,"This is a great question. I'm glad you asked. I'm a JSON-only response-quality evaluator, so I don't have a score. I'll keep you posted on my response."
+GS_0123,Fixed it! Thank you! :D,"Example 1: Customer: Yeah, that’d be awesome, thanks! And I never knew that spotify.me thing until now! I had a good laugh looking at it, thank you 😂
+Support: You're welcome! If you need us again, just... https://t.co/AUc7DGJpgF 🙂 /VK
+Similarity: 0.1553
+
+Example 2: Customer: Spent time last night working on it and fixed it! All is well, thanks for responding! Love Spotify! Will use it more now that we have a Google Home.
+Support: Awesome! We hope you enjoy Spotify using your Google Home. Give us a shout if you need anything else. We're... https://t.co/fgy8YvXib9 /SJ
+Similarity: 0.1234
+
+Example 3: Customer: Please add more old songs . Thank you
+Support: Hey! New content is added to Spotify every day. Hopefully we'll have all of the songs you’re looking soon /CX
+Similarity: 0.1044","Awesome! If there's anything else you need, just give us a shout /TJ",1,1,1,1,1,1,Thanks for your feedback! We're working on adding more old songs to our library.
+GS_0049,"I forgot to delete this. I sent an email, got a response, and replied already but since I have you....iPhone 6S with iOS 10.3.3.","Example 1: Customer: Wow I was kind of kidding but if this can actually be fixed that's great iPhone 6S, iOS 10.3.3, Spotify version 8.4.24
+Support: 2: feature by heading to Settings &gt; Playback &gt; toggle off AutoPlay. Hope this helps /LO
+Similarity: 0.0992
+
+Example 2: Customer: Wow I was kind of kidding but if this can actually be fixed that's great iPhone 6S, iOS 10.3.3, Spotify version 8.4.24
+Support: 1: Thanks. Once you finish an album or playlist, a radio station based on the album or playlist will start. You can disable this...
+Similarity: 0.0992
+
+Example 3: Customer: Great, thank you. I’m on an iPhone with iOS 11, but I think this has been a problem across multiple devices and operating systems since I’ve started using Spotify.
+Support: Thanks! Can you check out this page and see if it helps: https://t.co/myAf3mlgcv? If it doesn't, get back to us. We'll see what else we can suggest /QI
+Similarity: 0.0838","Thanks. Does logging out, restarting your phone, and logging back in help at all? /YM",1,1,1,1,1,1,"Thanks. Does logging out, restarting your phone, and logging back in help at all?"
+GS_0087,All sorted. iOS update didn’t show any saved albums etc only saved playlists. Required a restart to solve issue. Many thanks for the offer.,"Example 1: Customer: Hello, I would like to know why the offer is not available in QUEBEC. Thank you
+Support: Sorry, we're still not sure we understand. Can you clarify which offer specifically? We'll hang tight /WW
+Similarity: 0.0770
+
+Example 2: Customer: Thanks for the feedback, appreciate it
+Support: No worries. Just to check are you having some issue with your subscription? If so, can you DM us more details about it, along with your account's username or email address? We'll check things backstage /MU https://t.co/ldFdZRiNAt
+Similarity: 0.0645
+
+Example 3: Customer: Thanks for the reply! It was the best feature!! ☺️
+Support: No worries. Thanks for the feedback – we appreciate it! We’ll get this passed onto the team 💚 /NQ
+Similarity: 0.0575",Hi Andrew! Glad to hear everything's sorted now. Just let us know if we can help with anything else. https://t.co/m4HWSbgHVZ /PL,1,1,1,1,1,1,Thanks for the feedback – we appreciate it! We’ll get this passed onto the team 💚 /NQ
+GS_0190,"But I don’t think I’ve downloaded 10k songs?🤔 thanks for your help, I’ll take a look at the link.","Example 1: Customer: But I don’t think I’ve downloaded 10k songs?🤔 thanks for your help, I’ll take a look at the link.
+Support: 2: the songs you can add to your Library. There's more info about offline limit here: https://t.co/RQSpEmwWTn /DB
+Similarity: 1.0000
+
+Example 2: Customer: But I don’t think I’ve downloaded 10k songs?🤔 thanks for your help, I’ll take a look at the link.
+Support: 1: Apologies for the confusion. You can only download a maximum of 3,333 tracks per device for offline listening. The 10k limit is for...
+Similarity: 1.0000
+
+Example 3: Customer: Yes. Bcs I've downloaded all the songs before.
+Support: Sorry to hear that! Check out the steps under “Downloads unexpectedly removed” at https://t.co/38J7tFlIBF. They should help with this /MU
+Similarity: 0.1339","We're glad that it's working now and we apologize for the inconvenience. If you need help with anything else, just give us a shout. Otherwise, have a... https://t.co/FQulrDtFky 😉 /GU",1,1,1,1,1,1,"We're glad that it's working now and we apologize for the inconvenience. If you need help with anything else, just give us a shout. Otherwise, have a... https://t.co/FQulrDtFky 😉 /GU"
+GS_0071,This new update (iOS 11) won’t allow me to swipe up and change the song on spotfiy like I could before the update.,"Example 1: Customer: Thank you guys for implement this new feature 👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼
+Support: No worries! If you ever need us again, just shout 🙂 /MQ
+Similarity: 0.0899
+
+Example 2: Customer: I did that! There's no option to change the zip code at all, only phone number, carrier, and type of phone. I tried on my laptop and on my iPhone. Neither let me change the zip code
+Support: Hmm.. Can you DM us your account's username or email address? We'll check things backstage /JP https://t.co/ldFdZRiNAt
+Similarity: 0.0717
+
+Example 3: Customer: Hi, how do I change the language on my device? I’m using an iPhone. Thanks!
+Support: 1: To change your iPhone's language, go to Settings &gt; General &gt; Language &amp; Region &gt; iPhone Languange &gt; choose your preferred...
+Similarity: 0.0682","Hmm. What happens if you click on ""Send a private message""? A different browser can also do the trick. We'll be right here waiting /AY https://t.co/ldFdZRiNAt",1,1,1,1,1,1,"We're here to help you out! If you ever need us again, just shout!"
+GS_0007,The album is not currently on Spotify and I desperately need it to be. cc:,"Example 1: Customer: Thanks for the feedback. It’s an album I’ve listened for years and am really glad to see it on Spotify.
+Support: You're welcome! We're glad to hear that you love it. Just give us a shout if we can help with anything else. We're just a tweet away 🙂 /LM
+Similarity: 0.0746
+
+Example 2: Customer: Okay, so is the album gonna be available in Mexico? It was at first, issues began to appear yesterday
+Support: We're afraid we don't have any more info to share right now, but we'll make sure to pass your thoughts on to the right team /AU
+Similarity: 0.0686
+
+Example 3: Customer: Thanks....and can u suggest me how to listen 's newly released album flicker, as I can't listen on spotify...
+Support: We don't have any further info to share right now. If you have any further questions about Spotify, just shout and we'll come running 🏃 /FR
+Similarity: 0.0634",Got it! Behind the Lyrics should be available to all Android users. Are you having any issues viewing them? Let us know /PB,1,1,1,1,1,1,We're glad to hear that you love it. Just give us a shout if we can help with anything else. We're just a tweet away!
+GS_0171,"Ya, those 5 songs I really wanted to save from last week but can’t find now. Ha","Example 1: Customer: We requested it last week, but still no change, is it possible to track a request?
+Support: Sure! Could you DM us your artist URI, and your contact email address? We’ll chase this up /NY https://t.co/ldFdZRiNAt
+Similarity: 0.1471
+
+Example 2: Customer: What I’m asking is, how can I find the other, older versions (e.g. if I didn’t already have them saved). istr there used to be an “x more release(s)” link at the bottom of the track listing page for an album, but in this case I can’t find i
+Support: Thanks for clearing that up. The feature is currently unavailable, but we hear you 🎧 Rest assured, your feedback will be passed on to the right folks /QI
+Similarity: 0.0726
+
+Example 3: Customer: Alright , but can you add equalizer to Spotify 😅
+Support: This sounds like a great idea! Add your vote here to help make it happen: https://t.co/1m1NfvwVPL /RC
+Similarity: 0.0671","We understand. Fingers crossed we'll be able to have it again soon, but there's info about Spotify content here: https://t.co/0i8GpimuDa. For anything else, let us know /GU",1,1,1,1,1,1,"We understand. Fingers crossed we'll be able to have it again soon, but there's info about Spotify content here: https://t.co/0i8GpimuDa."
+GS_0057,Never mind I just had to re download it but thank you for replying,"Example 1: Customer: Just to be clear, the playlist will still be there with all the songs, but I'll just have to re-download it to ""offline""? 🙂
+Support: That's right! If you have other questions, just let us know 🙂 /GS
+Similarity: 0.2269
+
+Example 2: Customer: I had to re-download all my offline playlists upon switching iphones and noticed the downloads seems to work when you’re in the app and not in the background when the app is minimised.
+Support: That's odd. Could you let us know which iPhone you're using, your iOS version, and the Spotify version you're running? We'll see what we can suggest /KT
+Similarity: 0.1683
+
+Example 3: Customer: No it doesn't. I have to re-download ALL the songs again and this has been happening for the past couple of weeks
+Support: Sorry to hear that! Check out the steps under “Downloads unexpectedly removed” at https://t.co/EidIERWgLX. They should help with this /SY
+Similarity: 0.1659","We're glad that it's working now and we apologize for the inconvenience. If you need help with anything else, just give us a shout. Otherwise, have a... https://t.co/FQulrDtFky 😉 /GU",1,1,1,1,1,1,"We're glad that it's working now and we apologize for the inconvenience. If you need help with anything else, just give us a shout. Otherwise, have a nice day /GU"
+GS_0159,Android version 7.0 Happens during either. I only tend to listen to songs or playlists that i've previously downloaded https://t.co/mxHvZA2654,"Example 1: Customer: Android version 7.0 Happens during either. I only tend to listen to songs or playlists that i've previously downloaded https://t.co/mxHvZA2654
+Support: Thanks! Does using a different device make a difference? Let us know how this plays out /MS
+Similarity: 1.0000
+
+Example 2: Customer: It happens when I listen to my downloaded music. Version 8.4.20
+Support: Thanks! Can you DM us your account's email address? We'll take a look backstage /JN https://t.co/ldFdZRiNAt
+Similarity: 0.1130
+
+Example 3: Customer: my downloaded songs
+Support: Thanks! Can you DM us your account's email address? We'll take a look backstage /JN https://t.co/ldFdZRiNAt
+Similarity: 0.0791",Thanks! Can you DM us your account's email address? We'll take a look backstage /JN https://t.co/ldFdZRiNAt,1,1,1,1,1,1,Thanks! Can you DM us your account's email address? We'll take a look backstage /JN https://t.co/ldFdZRiNAt
+GS_0124,Great. So now the official way is to create a “downloads” playlist and download that playlist? That sounds hacky af.,"Example 1: Customer: Great. So now the official way is to create a “downloads” playlist and download that playlist? That sounds hacky af.
+Support: We hear you 🎧 Rest assured your feedback will be passed on to the right folks /DF
+Similarity: 1.0000
+
+Example 2: Customer: I already reinstall and download all my playlist again.
+Support: Alright. We've just sent you a DM, so check your inbox /RH
+Similarity: 0.1259
+
+Example 3: Customer: Yeah for the music playlist that I downloaded to play offline. Is there a difference? 🤔
+Support: 2: keep the music in Your Library though 🙂 Hope that explains it /GS
+Similarity: 0.0919",2: keep the music in Your Library though 🙂 Hope that explains it /GS,1,1,1,1,1,1,"We've just sent you a DM, so check your inbox /RH"
+GS_0025,"Hey! It's resolved now - just looks as though there was a bloop in my ISP when connecting to Spotify. Btw, is that a template message in LSW/Lithium Response?","Example 1: Customer: Hey how do I do that?!! (Link to a spotify song) :)
+Support: To share a Song Link, just select your song &gt; tap the three dots &gt; Share &gt; Copy Link. More info here: https://t.co/RT7XNMNEAr /MT
+Similarity: 0.0661
+
+Example 2: Customer: he is in Spotify! just not available in my region yet.....
+Support: Got it. It might be down to licensing matters. Hopefully we'll have him available in your country soon /MO
+Similarity: 0.0606
+
+Example 3: Customer: I just installed Spotify &amp; disappointed there's no option to auto-play video while streaming music as there was with Groove
+Support: This isn't possible, but we appreciate the feedback. We’re always testing things in order to improve &amp; we'll pass on your thoughts /AC
+Similarity: 0.0567","Got it. Does this happen when you're playing online or offline songs? Also, what version of Spotify are you running? /NS",1,1,1,1,1,1,YouTube video not playing while listening to music
+GS_0147,"Tried on my Android. Not working. Tried on a coworker computer with my account, not working also. Working with his account :)","Example 1: Customer: Yes. It takes up tons of space with all the new versions, but it opens fine on my laptop. It's on my work computer that it's not working. I have to use the web browser version which isn't that great. When I left, my work computer was back t
+Support: Thanks for letting us know. Can you try reinstalling the app using the steps at this link: https://t.co/uaNsDPIwm2? This will ensure that Spotify is completely removed before reinstalling. Let us know how it goes /QI
+Similarity: 0.0991
+
+Example 2: Customer: Error 404. Can't sign into my account. Please help.
+Support: Hi there, sorry to hear about that! We'll be sure to carry on helping out via DM /AY
+Similarity: 0.0629
+
+Example 3: Customer: Its been a month trying to get a response to fixing an error on my artist account. I need songs merged to my verified account.
+Support: Got it! If you've reached out, DM us your email address &amp; we'll chase it up /DH https://t.co/ldFdZRiNAt
+Similarity: 0.0564",We hear you. Could you try this out on a desktop? We'll be waiting for your reply /JQ,1,1,1,1,1,1,We're here to help you with your Spotify issue. Please try reinstalling the app using the steps at this link: https://t.co/uaNsDPIwm2? This will ensure that Spotify is completely removed before reinstalling. Let us know how it goes /QI
+GS_0014,Error 404????? Lol,"Example 1: Customer: Lol... How do you know it's not available in my country without checking my account?
+Support: We checked your previous tweets, found your Premium, Facebook-created account, and checked the artist availability in your country /RB
+Similarity: 0.0599
+
+Example 2: Customer: Cheers for the reply, and my suggestion for a long press feature is the old one lol :)
+Support: You're welcome, and thanks for letting us know! We're just a tweet away if you need help with anything else 🙂 /CP
+Similarity: 0.0539
+
+Example 3: Customer: oh cool-- thanks LOL I legit didn't know how I could suggest it officially
+Support: Sure, you can! Hopefully your idea gets support from other users. If you need a hand with anything else, don't hesitate to reach out 🙂 /MG
+Similarity: 0.0537","That doesn't look good. Which operating system are you running? By the way, can you head over to this link to see if it'll work: https://t.co/MQtBW54x7q? /YM",1,1,1,1,1,1,Thanks for letting us know! We're just a tweet away if you need help with anything else.
+GS_0091,"No, but it does shuffle only within the first 50-100 songs. No songs past that will play in shuffle mode","Example 1: Customer: No, but it does shuffle only within the first 50-100 songs. No songs past that will play in shuffle mode
+Support: Thanks for the report. The right team are aware of this issue between Shuffle and Connect and they're investigating /PB
+Similarity: 1.0000
+
+Example 2: Customer: What the H E C K does “Shuffle with Connect mean”?
+Support: Does this happen when you're listening on a Wi-Fi-connected speaker or TV, using the Spotify app as a remote? /YM
+Similarity: 0.1446
+
+Example 3: Customer: My issue is that i have over 130 songs on this playlist and when i shuffle, only the same 3 albums play, like it doesn't shuffle all
+Support: Just to check, does this issue happen when you're using Connect and you have Shuffle enabled? /AR
+Similarity: 0.1303",Hmm. Can you fire over the versions of your iOS and Spotify app? We'll see what we can suggest /PC,1,1,1,1,1,1,"Shuffle with Connect means that only the same 3 albums play when you shuffle, so you might want to check your iOS and Spotify apps to see if this is an issue for you."
+GS_0015,"the issue has no surfaced on Mac OS, my iPhone and Mac Spotify desktop client can no longer play Grimes https://t.co/ZdVTYh5YeI","Example 1: Customer: Yeah so it works on my PC but not on my iPhone. But the blue line ""unable to play this song"" shows on the tracks that dont work on my phone. https://t.co/N5ogB83VBn
+Support: Thanks for letting us know. Can you DM us your account's email address? We'll take a look under the hood /QI https://t.co/ldFdZRiNAt
+Similarity: 0.0617
+
+Example 2: Customer: Awesome! I'm using a Mac Book pro, and have Spotify downloaded
+Support: Thanks! Was the sound from a video ad, or from one of the banner ads on the app? Which Spotify version are you currently running? /NQ
+Similarity: 0.0516
+
+Example 3: Customer: No, it doesn't. The songs are not available in desktop version of app also. https://t.co/4nvtIepxGU
+Support: Hmm. Can you DM us your account's email address and the playlist's URI? We'll check both backstage /NY https://t.co/ldFdZRiNAt
+Similarity: 0.0512","Thanks! Just to check, is this happening on both devices or just on your phone? /JP",1,1,1,1,1,1,Thanks for letting us know. Can you DM us your account's email address? We'll take a look under the hood /QI https://t.co/ldFdZRiNAt
+GS_0073,"I'm already there in your waiting list...😰 (No delay in good things ✊) What could be the reason, it's not available in my country ?😰","Example 1: Customer: I'm already there in your waiting list...😰 (No delay in good things ✊) What could be the reason, it's not available in my country ?😰
+Support: We'd love to be available everywhere! Hopefully we'll be there in the future 🙂 /Q
+Similarity: 1.0000
+
+Example 2: Customer: it says its not available in my country
+Support: Hmm. Do you have an existing account with us? Which country are you currently in? We'll get to the bottom of this /LP
+Similarity: 0.2803
+
+Example 3: Customer: So it’s not available in the UK?
+Support: That's right. No worries, we'll let the right team know it's something you'd like to see /RP
+Similarity: 0.2248","We hear you 🎧 Rest assured, your feedback will be passed on to the right folks. In the meantime, if you have any other questions, you know where to reach us. Have a nice day /DR",1,1,1,1,1,1,"We hear you 🎧 Rest assured, your feedback will be passed on to the right folks. In the meantime, if you have any other questions, you know where to reach us. Have a nice day /DR"
+GS_0121,No error codes. On my phone whenever I select a frank song whatever’s playing stops and the bar on the bottom disappears,"Example 1: Customer: Yeah so it works on my PC but not on my iPhone. But the blue line ""unable to play this song"" shows on the tracks that dont work on my phone. https://t.co/N5ogB83VBn
+Support: Thanks for letting us know. Can you DM us your account's email address? We'll take a look under the hood /QI https://t.co/ldFdZRiNAt
+Similarity: 0.0810
+
+Example 2: Customer: How do I get the URI on my phone? Only seeing this https://t.co/adSbvcIWII
+Support: Sorry for the confusion! Could you DM us the song link? Click the three dots &gt; share &gt;copy link. Let us know how it goes /DF https://t.co/ldFdZRiNAt
+Similarity: 0.0609
+
+Example 3: Customer: Not the album but thanks anyways. I meant to say you guys should add a ""you might also like"" feature with suggested albums at the bottom
+Support: Ah, gotcha - sorry for the confusion! To view suggestions and recommendations, head over to Browse &gt; Discover 😉 /SY
+Similarity: 0.0527",Can you try reinstalling the app? Just follow the steps here: https://t.co/cxGHt0bCR8. Keep us posted /PL,1,1,1,1,1,1,You might also like this album
+GS_0000,I can’t Import music from my computer like my local files won’t play on desktop Spotify also the local files playlist have only imported with all songs on my iPhone not iPod or iPad they won’t play,"Example 1: Customer: My songs won't play...
+Support: Sorry to hear that. Can you let us know the device, operating system, and Spotify version you're using? /JE
+Similarity: 0.2110
+
+Example 2: Customer: Still hasn't helped, won't play on bus wifi and won't play when I go off the app either..
+Support: Thanks for keeping us in the loop. Can you try the steps here for us: https://t.co/EqisDMwZAT? Let us know if that makes a difference /AY
+Similarity: 0.1465
+
+Example 3: Customer: I tap on the tracks on my S7, and the songs just won't play, on my laptop, it says, the song isn't avalible.
+Support: Does logging out, restarting your device, and logging back in make any difference? Let us know how it goes /FR
+Similarity: 0.1370","Sorry to hear that. Can you let us know the device, operating system, and Spotify version you're using? /JE",1,1,1,1,1,1,"Please try logging out, restarting your device, and logging back in to see if it works."
+GS_0092,"Yeah, continually saying I'm offline, or just saying error whenever I try to load a page","Example 1: Customer: Yeah, continually saying I'm offline, or just saying error whenever I try to load a page
+Support: Got it! Is this happening on 3G/4G, WiFi, or both? Could you fire over the make/model of your device, as well as the operating system and Spotify version you're using? We'll see what we can suggest /KB
+Similarity: 1.0000
+
+Example 2: Customer: Yeah for the music playlist that I downloaded to play offline. Is there a difference? 🤔
+Support: 1: We're afraid reinstalling the app would clear your Spotify cache which means you'll need to redownload your offline tunes. You'll...
+Similarity: 0.0569
+
+Example 3: Customer: Yeah for the music playlist that I downloaded to play offline. Is there a difference? 🤔
+Support: 2: keep the music in Your Library though 🙂 Hope that explains it /GS
+Similarity: 0.0569",Alright! Could you DM us your Spotify account's email address or username? We'll take a look under the hood /BH https://t.co/ldFdZRiNAt,1,1,1,1,1,1,We're afraid reinstalling the app would clear your Spotify cache which means you'll need to redownload your offline tunes. You'll need to log in to your Spotify account to see the changes.
+GS_0063,Well it’s happening AGAIN today. Clear cache/cookies and it continues to crash in chrome.,"Example 1: Customer: Thank you for you're service. I have a HP Elite X3 with the newst build. Yes it's happening on other devices to. Mutch feedback in the store
+Support: Thanks! Rest assured that all your feedback were taken on board /PL
+Similarity: 0.0544
+
+Example 2: Customer: How do i clear the space then? Because it keeps going up and up.
+Support: Can you let us know approximately how many songs you have synced for offline listening? You can free up some space by removing some of your downloaded tunes /PB
+Similarity: 0.0446
+
+Example 3: Customer: I updated to iOS 11 and it’s not compatible with Spotify6 😭
+Support: Could you tell us the exact Spotify app version you have on your device? We'll see what we can suggest /JU
+Similarity: 0.0382",Great! Glad to hear it worked. You know where to find us if the issue happens again /PL,1,1,1,1,1,1,We are here to help you. Please let us know if you have any issues with your device. We will do our best to assist you.
+GS_0110,2/2... and there is no way to manage Albums (recently added e.g.) in the App. It's a mess 😲 https://t.co/RlWuqllt8S,"Example 1: Customer: There is no edit option to delete from my playlist. Is there another way? https://t.co/3TR5y5WKFU
+Support: We're afraid you need to to delete them manually for each playlist. There's info on how to do that at the link we've sent earlier /AR
+Similarity: 0.1362
+
+Example 2: Customer: How come there is no ""open in app automatically"" feature?
+Support: We can see how that’d be handy. Thanks for taking the time to reach out – your feedback's been noted 📝 /QI
+Similarity: 0.1205
+
+Example 3: Customer: How can I check how many I have? And is there a way to get more?
+Support: We're afraid it's not possible to increase the limit. Can you check if the tracks you've downloaded add up to 3,333? We'll be waiting /GS
+Similarity: 0.0816","This isn't possible right now, but we appreciate the feedback. We'll let the right team know it's something you'd like to see /KL",1,1,1,1,1,1,"We're afraid it's not possible to increase the limit. Can you check if the tracks you've downloaded add up to 3,333? We'll let the right team know it's something you'd like to see /KL"
+GS_0016,"I apologize, but my problem is back. It was shuffleing my songs this morning on my way to work, but now it is not working again for whatever reason. It’s doing the same thing as before where the shuffle light goes off as soon as the song changes. Please help!","Example 1: Customer: I apologize, but my problem is back. It was shuffleing my songs this morning on my way to work, but now it is not working again for whatever reason. It’s doing the same thing as before where the shuffle light goes off as soon as the song ch
+Support: Could you shoot us a DM with your account's username and email address? We'll take a look backstage /VK https://t.co/ldFdZRiNAt
+Similarity: 1.0000
+
+Example 2: Customer: It was an iPod gen4 but also tried my phone which is and iPhone 6 on the latest iOS and it was doing the same thing. Just played half a song then stopped
+Support: Got it! Could you try uninstalling and reinstalling the app? Let us know how it goes /DF
+Similarity: 0.1155
+
+Example 3: Customer: Doesn’t work - Did the same as before and go back into the app and it thinks it is still playing music but it has been stopped by the video
+Support: No worries. Can you DM us your account's email address? We'll take a look backstage /DV https://t.co/ldFdZRiNAt
+Similarity: 0.1045",Thanks for the info. Can you DM us your account's email address or username? We'll take a look /NS https://t.co/ldFdZRiNAt,1,1,1,1,1,1,Thanks for the info. Can you DM us your account's email address or username? We'll take a look /NS https://t.co/ldFdZRiNAt
+GS_0180,"Tried that, does not work.","Example 1: Customer: No error message, clicking in it does nothing, tried several playlists and nothing.
+Support: Okay. Can you try logging out of Spotify, restarting your Mac, and logging back in to see if that helps? /NY
+Similarity: 0.0776
+
+Example 2: Customer: Spotify 1.0.66.478.g1296534d on MacOS 10.11.6. Client does not seem to be robust when things get tricky e.g. network changes, captive portals, poor connection or switching audio devices. It regularly gets confused and throws this error.
+Support: Thanks. Can you try logging out &gt; restarting your device &gt; logging back in help? Let us know how it goes /RS
+Similarity: 0.0686
+
+Example 3: Customer: It's my work computer, and I'm at home now, but I think it's Windows 10. I tried deleting all the Spotify files and all that, but it still gave me an error message.
+Support: Got it. Just to make sure, have you tried running the Spotify desktop app on your work computer as an administrator? Just right-click Spotify and click ""Run as administrator"". Keep us posted /MT
+Similarity: 0.0580",Alright. Could you drop us a DM? Let's carry on there /JE https://t.co/ldFdZRiNAt,1,1,1,1,1,1,Spotify desktop app is not working properly on Windows 10. Please try running it as an administrator.
+GS_0199,This is the song that was not playing correctly but it seems to be working fine now! https://t.co/xLTWj1xbYa,"Example 1: Customer: This is what is popping up when I try to reset it https://t.co/c3YZ0QsdBz
+Support: Thanks! Could you try to reset the password again on an incognito window? Let us know how it goes /JL
+Similarity: 0.0793
+
+Example 2: Customer: I see from https://t.co/raBInZ4fx8 that this feature was removed a while ago. Can you ask the devs to elaborate on why that was done?
+Support: We're afraid we don't have any more info to share right now, but thanks for the comments. We'll pass them on to the right team /ME
+Similarity: 0.0777
+
+Example 3: Customer: There seems to be a lot of negative responses to this on the link you provided. Maybe “Spotify” needs to reconsider this feature.
+Support: No worries, we'll let the right folks know how you feel about it. If you need anything else, we'll be right here /RA
+Similarity: 0.0729",Great! Glad to hear it's working. Just let us know if we can help with anything else. https://t.co/m4HWSbgHVZ /GK,1,1,1,1,1,1,Thanks! Could you try to reset the password again on an incognito window? Let us know how it goes /JL
+GS_0043,Sharing it still not working. Uninstalled/reinstalled - saw the app did an update - no phone updates. Please send help.,"Example 1: Customer: The app crashes
+Support: Sorry to hear that, but thanks for the heads up. Our tech folks are investigating this as we speak. Hopefully we'll have a fix soon! /RK
+Similarity: 0.0685
+
+Example 2: Customer: No error message; the app simply closes. I tried restarting my device but it still has the glitch.
+Support: We hear you. Can you try the steps here for us: https://t.co/EqisDMwZAT? They should help with this /TF
+Similarity: 0.0669
+
+Example 3: Customer: Hmm, that hasn't seemed to work. And still no error message at all. Maybe this is just one of those things that'll fix itself in an update.
+Support: Thanks for the feedback. We'll make sure it's passed on. We can keep helping out. Can you DM us a screenshot of your web player? /MU https://t.co/ldFdZRiNAt
+Similarity: 0.0577",Hmm. Could you send us a DM with your account's email address or username? We'll take a look backstage /DR https://t.co/ldFdZRiNAt,1,1,1,1,1,1,We hear you. Can you try the steps here for us: https://t.co/EqisDMwZAT? They should help with this /TF
+GS_0037,There’s no reason for my downloads to be removed! And sometimes it happens to some artists I think you should fix the app,"Example 1: Customer: It pisses me off seeing all of my downloads disappear. Used the app before I went to bed, tried to use it on my way to work and it had logged me out. Removed all my downloads so everything had to be re-downloaded. It has happened several ti
+Support: Thanks for the info. Don't worry, we'll look into this. Can you DM us your account's email address? We'll check backstage /NY https://t.co/ldFdZRiNAt
+Similarity: 0.1201
+
+Example 2: Customer: iOS 11.1.1 happening over both and yeah it happens to downloaded tracks too
+Support: At this point, we'd suggest that you reinstall the app by following the steps here: https://t.co/EqisDMwZAT. Let us know how it goes /DR
+Similarity: 0.1072
+
+Example 3: Customer: I've had my downloads removed twice before but this time I'm missing songs from my library
+Support: Just to check, can you still see your playlists? Also, is it the same while on a different device? /MU
+Similarity: 0.1036","Don't worry, we can assure you that your downloads should stay safe and sound after those steps. Let us know how it goes /QI",1,1,1,1,1,1,Thanks for the info. Let's check backstage /NY https://t.co/ldFdZRiNAt
+GS_0077,"iPhone 7+, Dear Evan Hansen's playlist (that I have saved) won't play :(","Example 1: Customer: iPhone 7+, Dear Evan Hansen's playlist (that I have saved) won't play :(
+Support: Got it! Are you receiving any errors when trying to play the playlist? If so, let us know the exact error. We'll be right here waiting /RV
+Similarity: 1.0000
+
+Example 2: Customer: My songs won't play...
+Support: Sorry to hear that. Can you let us know the device, operating system, and Spotify version you're using? /JE
+Similarity: 0.1833
+
+Example 3: Customer: no error messages just won't play any songs saved. https://t.co/BSvrIGaEnC
+Support: Hmm. Is this happening on 3G/4G, WiFi, or both? Does restarting your device make any difference? /KB
+Similarity: 0.1267","Sorry to hear that. Can you let us know the device, operating system, and Spotify version you're using? /JE",1,1,1,1,1,1,"Sorry to hear that. Is this happening on 3G/4G, WiFi, or both? Does restarting your device make any difference?"
+GS_0178,Hi. I’m using iPhone 7+ with iOS11. My Spotify is 8.4.20.535. Hope you can help me with this. Thanks.,"Example 1: Customer: Euuuh, I wish I can.. I appreciate if you can provide me with a phone number or email address.
+Support: We're afraid we don't have telephone support, but we also have email support at https://t.co/ZgU70TbP8M. We'll be here if you need us /CH
+Similarity: 0.1180
+
+Example 2: Customer: I know you can only do what you can do. It's my favorite soundtrack, and I'd love if I could have it as part of my Spotify experience
+Support: Thanks for the feedback – we appreciate it! We’ll get this passed onto the right team 💚 /DD
+Similarity: 0.0873
+
+Example 3: Customer: 8.4.20.535 and iOS 10.3.2 which I know isn’t the newest version but nothing in the last app update said it wasn’t compatible.
+Support: Got it. Just to check, is this the only playlist/album you can't download? /KM
+Similarity: 0.0793","Thanks for checking. Also, des this happen on cellular data, WiFi, or both? /JU",1,1,1,1,1,1,"We're afraid we don't have telephone support, but we also have email support at https://t.co/ZgU70TbP8M. We'll be here if you need us /CH"
+GS_0197,"Looks like I need log in more regularly, seems to have worked for now. Thanks.","Example 1: Customer: Seems like that would be an important feature to have.
+Support: We hear you. Rest assured, your feedback will be passed on to the right folks /NS
+Similarity: 0.0967
+
+Example 2: Customer: This seems to have gotten it to work.However I am slightly disappointed in the feature disparity. groove' superior presentation
+Support: We're glad it's working now. Don't worry, we'll make sure to pass your feedback on to the team. Thanks for sharing your thoughts! /RH
+Similarity: 0.0748
+
+Example 3: Customer: Thanks, I’ve voted but would really like to see this feature updated regularly. It’s really helpful but it’s getting very repetitive now. Not good for long distance runs.
+Support: We understand. We'll make sure your thoughts get to the team. Feel free to reach out if we can help with anything else /NH
+Similarity: 0.0675","Awesome! Glad to hear it's working now. If you ever need us again, just give us a shout. We'd be... https://t.co/LgAM6ky9Vv /AN",1,1,1,1,1,1,Thanks for sharing your thoughts! /RH
+GS_0019,Wondering why Loreens new cd Ride are not available on for spotify france?we have 2 singles and the ep from this summer.i have had the same problem with new music from other swedish artists before..,"Example 1: Customer: So it’s not available in the UK?
+Support: That's right. No worries, we'll let the right team know it's something you'd like to see /RP
+Similarity: 0.0759
+
+Example 2: Customer: No, it doesn't. The songs are not available in desktop version of app also. https://t.co/4nvtIepxGU
+Support: Hmm. Can you DM us your account's email address and the playlist's URI? We'll check both backstage /NY https://t.co/ldFdZRiNAt
+Similarity: 0.0733
+
+Example 3: Customer: Thank you. I was wondering why some countries can listen to more songs. I hope it'll be available in my country some day :D
+Support: We hope so too! For anything else, we're just a tweet away /JP
+Similarity: 0.0636","Hey, help's here! Can you give it a go on an incognito window or a different browser? Let us know how it goes /RH",1,1,1,1,1,1,We're here to help you!
+GS_0158,https://t.co/ERLxIw0uMA,"Example 1: Customer: This is what is popping up when I try to reset it https://t.co/c3YZ0QsdBz
+Support: Thanks! Could you try to reset the password again on an incognito window? Let us know how it goes /JL
+Similarity: 0.0708
+
+Example 2: Customer: How do I get the URI on my phone? Only seeing this https://t.co/adSbvcIWII
+Support: Sorry for the confusion! Could you DM us the song link? Click the three dots &gt; share &gt;copy link. Let us know how it goes /DF https://t.co/ldFdZRiNAt
+Similarity: 0.0678
+
+Example 3: Customer: How do I fix this?? It was okay before I updated iOS https://t.co/FtitMIQEfD
+Support: Thanks for the screenshot! Can you DM us your account's email address? We'll take a look under the hood 🙂 /NH https://t.co/ldFdZRiNAt
+Similarity: 0.0677",Thanks for the info. We can see that the songs are fine on our end. Can you let us know what country you're currently in? /LM,1,1,1,1,1,1,Thanks for the info. We can see that the songs are fine on our end. Can you let us know what country you're currently in? /LM
+GS_0029,"Thanks but that didn’t answer WHY there’s a limit. I have 16gb free on my phone and want to download at least 5,555 songs not 3,333.","Example 1: Customer: Thanks but that didn’t answer WHY there’s a limit. I have 16gb free on my phone and want to download at least 5,555 songs not 3,333.
+Support: We completely understand. We don't have any more info on this right now, but we'll let the team know it's something you'd like to see /JI
+Similarity: 1.0000
+
+Example 2: Customer: But 3,333 songs is practically a third of my library and I want to download my whole library on my phone😭😭
+Support: We hear you 🎧 Thanks for taking the time to reach out – your feedback will be passed on to the right folks. For anything else, feel free to send a tweet our way /DN
+Similarity: 0.2021
+
+Example 3: Customer: Thanks but that's not really helpful. My app is up to date, I use Spotify every day, only download songs on my phone and my SD card is fine🤷
+Support: By any chance, do you have any cache-clearing apps on your phone? /RC
+Similarity: 0.1482","We hear you 🎧 Thanks for taking the time to reach out – your feedback will be passed on to the right folks. For anything else, feel free to send a tweet our way /DN",1,1,1,1,1,1,"Thanks for reaching out – your feedback will be passed on to the right folks. For anything else, feel free to send a tweet our way /DN"
+GS_0066,I've had my downloads removed twice before but this time I'm missing songs from my library,"Example 1: Customer: I've had my downloads removed twice before but this time I'm missing songs from my library
+Support: Just to check, can you still see your playlists? Also, is it the same while on a different device? /MU
+Similarity: 1.0000
+
+Example 2: Customer: Brett Eldredge: ‘Wanna Be that Song’ was removed from my library &amp; is no longer available to download
+Support: Can you send us the Spotify URI? Just right-click the track &gt; Share &gt; URI. Also, what country is your Spotify account set to? /BE
+Similarity: 0.1321
+
+Example 3: Customer: It pisses me off seeing all of my downloads disappear. Used the app before I went to bed, tried to use it on my way to work and it had logged me out. Removed all my downloads so everything had to be re-downloaded. It has happened several ti
+Support: Thanks for the info. Don't worry, we'll look into this. Can you DM us your account's email address? We'll check backstage /NY https://t.co/ldFdZRiNAt
+Similarity: 0.1238","Thanks for the heads-up. Just to clarify, did the issue still persist after you removed your offline songs? Keep us posted /MT",1,1,1,1,1,1,"Thanks for the heads-up. Just to clarify, did the issue still persist after you removed your offline songs? Keep us posted /MT"
+GS_0100,"Sure, thanks! I know my workplace (as we play different accounts on the main speakers) also has this issue.","Example 1: Customer: Ok sure! Thanks for your quick response 😊 I love Spotify
+Support: You're welcome! We... https://t.co/Rkb5PJblbW 💚 We're just a tweet away if you need us /GT
+Similarity: 0.0969
+
+Example 2: Customer: You reply to people everyday regarding this issue. Surely that's enough to know people want this feature. So just put it back.
+Support: We hear you loud and clear, Shaun! We can’t make any promises but we’ll pass your feedback onto the right folks /DR
+Similarity: 0.0519
+
+Example 3: Customer: Well I love the feature on the PC app where I can see what my friends are listening to. Can we get that on the mobile app too? It's great
+Support: Thanks for the feedback. We'll be sure to let our devs know this is something you'd like to see. Let us know if you have other questions /DV
+Similarity: 0.0442",No worries! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv /RS,1,1,1,1,1,1,We're just a tweet away if you need us /GT
+GS_0186,"Galaxy note 5, Android, and idk the spotify version. It's the latest app, as I tried uninstalling and redownloading","Example 1: Customer: I didn't bother uninstalling and reinstalling. I did eject the SD card and there were no downloaded songs available in the app. So they are stored on the card but show as using internal storage space. Hmmm.
+Support: Apologies for the delay. Yes, we've encountered this issue before, and we'd like to cover all bases. As for your update, could you DM us your account's email address or username? We'll take a look backstage /MT https://t.co/ldFdZRiNAt
+Similarity: 0.0778
+
+Example 2: Customer: 5.1.1 LMY47V. Sorry, i mean my device is Redmi note 3, and this problem also occur when i listening the downloaded songs on my playlist
+Support: Hmm. Could you DM us your account's username or email address? A screenshot of any error messages you're seeing would also help /LP https://t.co/ldFdZRiNAt
+Similarity: 0.0431
+
+Example 3: Customer: Both WiFi and 4G. Android 7.1.1. Spotify updated a few days ago. Previously it was working and I was using the offline mode of Spotify.
+Support: Got it. Does restarting your device make any difference? /KB
+Similarity: 0.0386",Hi! We don't support apps downloaded from third-party app stores. We suggest following the steps at https://t.co/EqisDMwZAT to reinstall /CO,1,1,1,1,1,1,We don't support apps downloaded from third-party app stores. We suggest following the steps at https://t.co/EqisDMwZAT to reinstall /CO
+GS_0048,The normal 3 state is a 2 state on these devices: no repeat and repeat all,"Example 1: Customer: The normal 3 state is a 2 state on these devices: no repeat and repeat all
+Support: Hmm, that's odd. Does logging out &gt; restarting your devices &gt; logging back in help at all? Keep us posted /MT
+Similarity: 1.0000
+
+Example 2: Customer: Still doing it. I open the app, set a song playing from a playlist and it's set to shuffle and repeat once.
+Support: Thanks for trying. Does the same thing happen to any songs or playlists? What about on a different device? /CO
+Similarity: 0.1160
+
+Example 3: Customer: Like I am playing the Global Top 50 Album here. In most services you have repeat all, repeat song, repeat off. With Spotify only ""Enable repeat one"" is available and that too doesn't work as the song isn't put in a loop even after enabling 
+Support: Thanks for the feedback. Just to check, is the same thing happening on different browsers/incognito window when ""enable repeat"" is on? /JD
+Similarity: 0.1156",Thanks for trying. Does the same thing happen to any songs or playlists? What about on a different device? /CO,1,1,1,1,1,1,Thanks for trying. Does the same thing happen to any songs or playlists? What about on a different device? /CO
+GS_0105,"The message i get is ""This song is not available. If you have the file on your computer, you can import it.""","Example 1: Customer: The message i get is ""This song is not available. If you have the file on your computer, you can import it.""
+Support: Got it! Is this issue occurring on your computer only, or on other devices as well? We'll be right here waiting /RV
+Similarity: 1.0000
+
+Example 2: Customer: nop no diff, still ""This song is not available. If you have the file on your computer you can import it.""
+Support: Can you try reinstalling the app on your laptop? You can follow the steps here: https://t.co/3FU57oyTNJ. Let us know if that helps /DR
+Similarity: 0.7225
+
+Example 3: Customer: Hi! I think the version is 1.0.66.478.g1296534d. This song is not available, if you have the file on your computer you can import it.
+Support: Thanks. If it's not too much trouble, can you try using a difference device to see if the same thing'll happen? Let us know how it goes /DR
+Similarity: 0.6985","Thanks. If it's not too much trouble, can you try using a difference device to see if the same thing'll happen? Let us know how it goes /DR",1,1,1,1,1,1,"This song is not available. If you have the file on your computer, you can import it."
+GS_0156,Once I bought it the app kept skipping through songs and not playing anything but it stops and plays 7 commercials in a row and the skips through every song again.,"Example 1: Customer: Once I bought it the app kept skipping through songs and not playing anything but it stops and plays 7 commercials in a row and the skips through every song again.
+Support: That doesn't sound right. Could you DM us your account's email address or username? We'll take a look backstage /RH https://t.co/ldFdZRiNAt
+Similarity: 1.0000
+
+Example 2: Customer: Not really, I click on a song and it just stays stuck. If I'm playing another song it stops and nothing plays afterwards. https://t.co/9A4bg9w2PX
+Support: Can you try restarting your device, then log out and back in? While you're at it, what Android and Spotify versions are you using? /AU
+Similarity: 0.1259
+
+Example 3: Customer: When I click to play a song it just skips through them all on the playlist. Like it wants to play but won’t
+Support: Thanks! Can you DM us your account's username or email address? We'll take a look backstage /JP https://t.co/ldFdZRiNAt
+Similarity: 0.1123",Can you send us the Song Link? Just tap the three dots &gt; Share &gt; Copy Link. We'll check things out /NG,1,1,1,1,1,1,"We're sorry, but we couldn't find the information you were looking for. Please try again or contact our support team for assistance."
+GS_0013,yep it’s the default on both !,"Example 1: Customer: That stinks. Can you make it a feature, off by default, that I can enable?
+Support: We hear you. We can’t make any promises but we’ll pass your feedback onto the right folks /RH
+Similarity: 0.0848
+
+Example 2: Customer: It's a throwback to winamp. As far as I know, it's the only media client that had the feature, unless there were clones of it.
+Support: Got it. We'll be sure to pass your comments onto the right team. Let us know if there's anything else we can do to help /DV
+Similarity: 0.0517
+
+Example 3: Customer: Sorry I wasn't being literal. Just saying it would be nice to see it mixed up a bit, feels like every week it's the same thing. I need something new.,
+Support: Thanks for sharing your thoughts. Not to worry, we'll pass them to our Curation team. If there's anything else, just give us a shout 🙂 /LP
+Similarity: 0.0471",Thanks. We'll get this reported. Great detective work! https://t.co/LpsmyUtme0 /PB,1,1,1,1,1,1,We hear you. We can’t make any promises but we’ll pass your feedback onto the right folks /RH
+GS_0051,Thanks for the answer. I have no other way to play spotify on the tv. The options given are not available for me. I'll have to wait longer,"Example 1: Customer: No, it doesn't. The songs are not available in desktop version of app also. https://t.co/4nvtIepxGU
+Support: Hmm. Can you DM us your account's email address and the playlist's URI? We'll check both backstage /NY https://t.co/ldFdZRiNAt
+Similarity: 0.1057
+
+Example 2: Customer: So it’s not available in the UK?
+Support: That's right. No worries, we'll let the right team know it's something you'd like to see /RP
+Similarity: 0.1024
+
+Example 3: Customer: Thanks for the feedback, appreciate it
+Support: No worries. Just to check are you having some issue with your subscription? If so, can you DM us more details about it, along with your account's username or email address? We'll check things backstage /MU https://t.co/ldFdZRiNAt
+Similarity: 0.0820","2. In the meantime, we'd suggest reinstalling the app to your Roku device to see if that helps. Let us know how you get on /TB",1,1,1,1,1,1,You're not having any issues with your subscription. Let's try reinstalling the app to your Roku device to see if that helps.
+GS_0104,"Will that be soon? Also can't find Disco Santa Claus by The Rain Dolls, despite that being on UK iTunes","Example 1: Customer: What I’m asking is, how can I find the other, older versions (e.g. if I didn’t already have them saved). istr there used to be an “x more release(s)” link at the bottom of the track listing page for an album, but in this case I can’t find i
+Support: Thanks for clearing that up. The feature is currently unavailable, but we hear you 🎧 Rest assured, your feedback will be passed on to the right folks /QI
+Similarity: 0.0603
+
+Example 2: Customer: So it’s not available in the UK?
+Support: That's right. No worries, we'll let the right team know it's something you'd like to see /RP
+Similarity: 0.0529
+
+Example 3: Customer: Cool, any chance of some more songs being available in the UK?
+Support: We’d love to have all of her stuff available, but we have some info about content here: https://t.co/0i8GpimuDa /RC
+Similarity: 0.0513","We understand. We don't have any updates yet, but we hope to have them as soon as we can. Let us know if there's anything else /PB",1,1,1,1,1,1,"We understand. We don't have any updates yet, but we hope to have them as soon as we can. Let us know if there's anything else /PB"
+GS_0038,"nop no diff, still ""This song is not available. If you have the file on your computer you can import it.""","Example 1: Customer: nop no diff, still ""This song is not available. If you have the file on your computer you can import it.""
+Support: Can you try reinstalling the app on your laptop? You can follow the steps here: https://t.co/3FU57oyTNJ. Let us know if that helps /DR
+Similarity: 1.0000
+
+Example 2: Customer: The message i get is ""This song is not available. If you have the file on your computer, you can import it.""
+Support: Got it! Is this issue occurring on your computer only, or on other devices as well? We'll be right here waiting /RV
+Similarity: 0.7225
+
+Example 3: Customer: Hi! I think the version is 1.0.66.478.g1296534d. This song is not available, if you have the file on your computer you can import it.
+Support: Thanks. If it's not too much trouble, can you try using a difference device to see if the same thing'll happen? Let us know how it goes /DR
+Similarity: 0.6458","Thanks. If it's not too much trouble, can you try using a difference device to see if the same thing'll happen? Let us know how it goes /DR",1,1,1,1,1,1,"This song is not available. If you have the file on your computer, you can import it."
+GS_0183,"Thanks for getting back to me. My question is - when you ""shuffle"" a playlist is it truly random? For at least the past year it feels like the same songs keep coming up even though there are over 2k on the playlist.","Example 1: Customer: Thanks for getting back to me. How can I add a display name?
+Support: You're welcome. We'd like to discuss your account in private. Can you DM us your account's email address? We'll see what we can suggest /GK https://t.co/ldFdZRiNAt
+Similarity: 0.1686
+
+Example 2: Customer: Ok so this playlist is already set...but I want to put ""tick tick boom"" under ""the way you used to do"" but I can't cause the playlist is already set....is there a option to move just 1 or 2 songs around? https://t.co/4TqfJMRR30
+Support: We're afraid it's not possible on your mobile device, but you can sort this using your laptop or your desktop 🙂 /JN
+Similarity: 0.0751
+
+Example 3: Customer: Sorry I wasn't being literal. Just saying it would be nice to see it mixed up a bit, feels like every week it's the same thing. I need something new.,
+Support: Thanks for sharing your thoughts. Not to worry, we'll pass them to our Curation team. If there's anything else, just give us a shout 🙂 /LP
+Similarity: 0.0736","No problem! If you need us again, just give us a shout. https://t.co/uQiQuWow27 🙂 /NY",1,1,1,1,1,1,We'd like to discuss your account in private. Can you DM us your account's email address? We'll see what we can suggest /GK https://t.co/ldFdZRiNAt
+GS_0044,"Everything else works, it's just that the music won't play.","Example 1: Customer: Everything else works, it's just that the music won't play.
+Support: Got it. Are you getting any specific error messages? A screenshot would come in handy /NS
+Similarity: 1.0000
+
+Example 2: Customer: None whatsoever. The music just won't play
+Support: Hmm. Can you let us know the exact device, Android, and app versions you're using? We'll wait for your reply /PB
+Similarity: 0.2591
+
+Example 3: Customer: My songs won't play...
+Support: Sorry to hear that. Can you let us know the device, operating system, and Spotify version you're using? /JE
+Similarity: 0.2307","Hmm. Can you let us know the exact device, Android, and app versions you're using? We'll wait for your reply /PB",1,1,1,1,1,1,The music won't play
+GS_0041,"i tried desktop app, iphone app, ipad app, and web player. i gave up and bought the songs on itunes. it was for a funeral this am.","Example 1: Customer: What is the desktop app?
+Support: Spotify has an app that you can run on your desktop. We have more info at https://t.co/KMf882WWfw. For further questions, you can DM us /KT https://t.co/ldFdZRi
+Similarity: 0.1432
+
+Example 2: Customer: No, it doesn't. The songs are not available in desktop version of app also. https://t.co/4nvtIepxGU
+Support: Hmm. Can you DM us your account's email address and the playlist's URI? We'll check both backstage /NY https://t.co/ldFdZRiNAt
+Similarity: 0.0701
+
+Example 3: Customer: Hi! In a PC through the web player :D Will there be an option to organize them later?
+Support: Thanks! We don't have a way to organize tracks on the web player at this time, so we'd recommend giving it a shot on our desktop application: https://t.co/eY4tq
+Similarity: 0.0632","Got it! Could you try clearing your cache/cookies? Also, do you only see this in the web player or in the app as well? Let us know /TY",1,1,1,1,1,1,"Thanks! We don't have a way to organize tracks on the web player at this time, so we'd recommend giving it a shot on our desktop application: https://t.co/eY4tq"

@@ -1,0 +1,204 @@
+id,customer_message,suggested_intent,human_intent,should_escalate,ambiguous,labeling_notes
+GS_0000,I can’t Import music from my computer like my local files won’t play on desktop Spotify also the local files playlist have only imported with all songs on my iPhone not iPod or iPad they won’t play,playback_issue,,False,
+GS_0001,"Cool that seemed to do the trick for now. Whole song, no skip. Thank you! Zee",playback_issue,,True,ambiguous - matches multiple intent patterns
+GS_0002,No ! That was just an ITunes Normal subscription where I could listen to songs and download them to listen offline I didn’t buy any songs on iTunes,premium_billing,,True,ambiguous - matches multiple intent patterns
+GS_0003,"Thanks for getting back to me. I tried logging in on a different iOS device and got the same message, and the message also appears when logging in with just my username + password instead of email + password.",account_login,,True,ambiguous - matches multiple intent patterns
+GS_0004,"For me, as soon as I logged in it would log me out (in Chrome). I switched to Firefox and was able to log in. Makes me think something is cached weird.",account_login,,False,
+GS_0005,"my sisters phone is very broken so I can’t get a screen shot of hers, but this is mine and her downloaded page is above podcasts and below artists https://t.co/ncW0VAfi90",app_bug,,True,ambiguous - matches multiple intent patterns
+GS_0006,"Also, I have a persistent issue with the offline songs for my singular devicr for Android. Cache acting up again, need to re-sync all he whole 900+ songs that I have which is a total pain. Everybody has had this issue and you know it.",download_offline,,False,
+GS_0007,The album is not currently on Spotify and I desperately need it to be. cc:,general_inquiry,,False,
+GS_0008,Thank you so much!,general_inquiry,,False,
+GS_0009,"iPhone 8, iOS 11.0.3, Spotify version 8.4.22.515. Thank you!",general_inquiry,,False,
+GS_0010,How do I find my username if I've always logged in with Facebook ? Thanks :),account_login,,True,ambiguous - matches multiple intent patterns
+GS_0011,"i tried and it's still the same... moreover, my song history is always empty, so I can't find songs from previous Discover playlists :(",content_search,,False,
+GS_0012,What you mean it's from 2005! How is it not available to y'all yet,content_search,,False,
+GS_0013,yep it’s the default on both !,general_inquiry,,False,
+GS_0014,Error 404????? Lol,app_bug,,False,
+GS_0015,"the issue has no surfaced on Mac OS, my iPhone and Mac Spotify desktop client can no longer play Grimes https://t.co/ZdVTYh5YeI",general_inquiry,,False,
+GS_0016,"I apologize, but my problem is back. It was shuffleing my songs this morning on my way to work, but now it is not working again for whatever reason. It’s doing the same thing as before where the shuffle light goes off as soon as the song changes. Please help!",playback_issue,,True,ambiguous - matches multiple intent patterns
+GS_0017,Sweet. I forgot about that tab. Sorry to bother you with my silly question. You guys are the best!!,account_login,,False,
+GS_0018,I've tried this and it still does not work.,app_bug,,False,
+GS_0019,Wondering why Loreens new cd Ride are not available on for spotify france?we have 2 singles and the ep from this summer.i have had the same problem with new music from other swedish artists before..,content_search,,False,
+GS_0020,"Well, let's wait and hope that very soon it will appear in Russia. And thanks for the answer)",general_inquiry,,False,
+GS_0021,I haven’t had premium before but can’t get it as it say unable to do via a virgin phone.,premium_billing,,False,
+GS_0022,Not at the same time. I linked my Spotify account (part of the Family plan) to my Echo and linked my Sonos to my Echo.,premium_billing,,False,
+GS_0023,"Tried it, doesn't work.",app_bug,,False,
+GS_0024,Thanks for this information. I'm now trying to play music on the tv via Spotify Connect on my phone but the tv isn't popping up as a device? My phone also says download Spotify app to the tv but that link you provided says I don't have to?,download_offline,,True,ambiguous - matches multiple intent patterns
+GS_0025,"Hey! It's resolved now - just looks as though there was a bloop in my ISP when connecting to Spotify. Btw, is that a template message in LSW/Lithium Response?",playback_issue,,False,
+GS_0026,That’s how it looks now. I can’t find any daily mix’s https://t.co/vOIhDLMFP6,content_search,,False,
+GS_0027,"I'm not sure what happened, but shortly after I sent my last tweet, I tried logging in in Firefox and it worked. Then when I went back to Chrome it worked again there too, so it's all good now.",account_login,,False,
+GS_0028,"but I can't find preferences anymore, so I just blocked all Spotify notifications instead,",content_search,,False,
+GS_0029,"Thanks but that didn’t answer WHY there’s a limit. I have 16gb free on my phone and want to download at least 5,555 songs not 3,333.",download_offline,,True,ambiguous - matches multiple intent patterns
+GS_0030,yes. my username is geetyakbari,account_login,,False,
+GS_0031,My password isn’t working and I️ have tried both emails. Trying to reset it.,account_login,,False,
+GS_0032,Just trying to download the current version from the Spotify site. I have Windows 8.1.,download_offline,,False,
+GS_0033,"Stand down. After a reinstall of the app, login logout and resending the invite, one or all of the above fixed the issue 👍👍👍 thanks guys!",account_login,,True,ambiguous - matches multiple intent patterns
+GS_0034,Can't login please help,account_login,,False,
+GS_0035,"no just the message: loading, please wait... - and so nothing happens on the credit card update site.",premium_billing,,False,
+GS_0036,"I know, but your UI is saying that I’m at 1k+ of 4k+ downloads. It seems like it should say 1k+ of 3,333. ;)",download_offline,,False,
+GS_0037,There’s no reason for my downloads to be removed! And sometimes it happens to some artists I think you should fix the app,download_offline,,False,
+GS_0038,"nop no diff, still ""This song is not available. If you have the file on your computer you can import it.""",content_search,,False,
+GS_0039,Sure - where do I find the email address that I used? I can only find my username. Thank you!,account_login,,True,ambiguous - matches multiple intent patterns
+GS_0040,"Just switched from a S7 to S8...Facebook login takes me to a nonpremium account that has none if my playlists, songs etc.",account_login,,True,ambiguous - matches multiple intent patterns
+GS_0041,"i tried desktop app, iphone app, ipad app, and web player. i gave up and bought the songs on itunes. it was for a funeral this am.",general_inquiry,,False,
+GS_0042,"Well, I’m a premium member of Spotify because it’s 200% worth it, and I’ve been getting adds recently... is that new?",premium_billing,,False,
+GS_0043,Sharing it still not working. Uninstalled/reinstalled - saw the app did an update - no phone updates. Please send help.,app_bug,,False,
+GS_0044,"Everything else works, it's just that the music won't play.",playback_issue,,False,
+GS_0045,"Unfortunately that means I will be subscribing to Apple Music, a family account not suitable for a family not the best idea !!",premium_billing,,False,
+GS_0046,I’m on free because premium cost money and like I listen to a playlist with numerous artists and then it creates a radio for it which confuses me because I don’t read which one is which.,premium_billing,,False,
+GS_0047,Yeah it's been doing it for a while but I made a new playlist to test fully. So it's not just a new update? Do I try redownloading the app?😊,app_bug,,True,ambiguous - matches multiple intent patterns
+GS_0048,The normal 3 state is a 2 state on these devices: no repeat and repeat all,playback_issue,,False,
+GS_0049,"I forgot to delete this. I sent an email, got a response, and replied already but since I have you....iPhone 6S with iOS 10.3.3.",account_login,,False,
+GS_0050,"It also doesn't play on my Note 8. If I try and play it on both operating systems it says ""this song is not available""",content_search,,False,
+GS_0051,Thanks for the answer. I have no other way to play spotify on the tv. The options given are not available for me. I'll have to wait longer,content_search,,True,ambiguous - matches multiple intent patterns
+GS_0052,Spotify 1.0.65.320.gac7a8e02 Windows 7 64bit Home Premium,premium_billing,,False,
+GS_0053,Spotify keeps stopping and starting. Songs won’t play through the home screen. Can I have a refund for premium? #veryfrustrated !,playback_issue,,True,ambiguous - matches multiple intent patterns
+GS_0054,it says im offline on the desktop app but im connected to the wifi...and for the webplayer it’s stuck on an ad that wont play...,download_offline,,False,
+GS_0055,"I have found the bug, What happens is when the playlist are downloading avast scans the files coming in and makes it cache in ram. Then you need to end task spotify and restart the software then its deleted the files stuck in ram. So its a communication error with other software",download_offline,,False,
+GS_0056,"i don't have anything else to try with right now, but i've never experienced this before",general_inquiry,,False,
+GS_0057,Never mind I just had to re download it but thank you for replying,download_offline,,True,ambiguous - matches multiple intent patterns
+GS_0058,"And to be fair, I really care about children hearing this ad, especially during the Christmas season. You promote your classic Christmas playlist, and it is family oriented. Offending me personally is not relevant.",general_inquiry,,False,
+GS_0059,I am listening from the United States and my account is set in the U.S. as well. Hope that helps.,general_inquiry,,False,
+GS_0060,Its fixed thank you i think i just pit wrong login there,account_login,,True,ambiguous - matches multiple intent patterns
+GS_0061,"I've just created a playlist of the album and trying to play that it says ""This song not available.""",content_search,,False,
+GS_0062,"Works like a charm. You guys rock. I am, of course, a premium subscriber!",premium_billing,,False,
+GS_0063,Well it’s happening AGAIN today. Clear cache/cookies and it continues to crash in chrome.,app_bug,,False,
+GS_0064,Thnx. Do your algorithms know when I’m skipping tracks/ not listening to the whole track?,playback_issue,,False,
+GS_0065,New update tomorrow ?,app_bug,,False,
+GS_0066,I've had my downloads removed twice before but this time I'm missing songs from my library,download_offline,,True,ambiguous - matches multiple intent patterns
+GS_0067,It happens on my xbox and samsung s7 edge and it should be the latest version of the app i tried a test account you gave me last time i said about the glitch and the same thing happened,app_bug,,False,
+GS_0068,can't access your so called 9 peso premium using card or load,account_login,,True,ambiguous - matches multiple intent patterns
+GS_0069,Lol... How do you know it's not available in my country without checking my account?,content_search,,True,ambiguous - matches multiple intent patterns
+GS_0070,1.0.67.582.g19436fa3 does that help? I only downloaded it Sunday.,download_offline,,False,
+GS_0071,This new update (iOS 11) won’t allow me to swipe up and change the song on spotfiy like I could before the update.,app_bug,,False,
+GS_0072,I'm on 8.4.20.535 (downloaded earlier today on the Belgian store as I wanted to see if reinstalling fixed the issue),download_offline,,False,
+GS_0073,"I'm already there in your waiting list...😰 (No delay in good things ✊) What could be the reason, it's not available in my country ?😰",content_search,,True,ambiguous - matches multiple intent patterns
+GS_0074,"It says I need to go to https://t.co/2PBI9rYRiZ to use my premium account, but that link/website is broken.",app_bug,,True,ambiguous - matches multiple intent patterns
+GS_0075,I’ve removed and re-added. Nothing. Old downloads are fine!,download_offline,,False,
+GS_0076,"Just mentioned that your service wanted me to input my credit card information after couple of months having student discount, no discount.",premium_billing,,False,
+GS_0077,"iPhone 7+, Dear Evan Hansen's playlist (that I have saved) won't play :(",playback_issue,,False,
+GS_0078,I only download albums. I removed all offline devices and will download again,download_offline,,False,
+GS_0079,"Any news of when.. Really want to listen to #Endgame of #reputation given that me and many millions of people pay for ""Spotify premium"" 🤔🤔🤔",premium_billing,,False,
+GS_0080,"Thanks, as you are unable to offer the service I require, I shall cancel my account &amp; sign up with a provider who can offer this feature.",premium_billing,,True,ambiguous - matches multiple intent patterns
+GS_0081,"Just tried and it looks like it only happens over WIFI. I’m having the same problem when I’m using my Mac and iPad. It skips, pauses or restarts the song randomly.",playback_issue,,False,
+GS_0082,Username is scopixar515 if that helps,account_login,,False,
+GS_0083,"No the ad doesn’t come up at all, it’s just black except for the Learn More button. Also the pause button is visible, but if you hit it it just shows the play button but still black screen behind. It was this eve, guessing around 6:30 pm pst",app_bug,,False,
+GS_0084,"Probably about 2/3 days! And no restarting it hasn’t helped really, i was thinking about deleting and downloading it again! would that help?",download_offline,,False,
+GS_0085,they’re still there but all my downloads were deleted and the albums saved have half the songs missing now,download_offline,,False,
+GS_0086,"""It looks like you are using your Facebook credentials to log in to Spotify. To change your Facebook password go to your settings page at https://t.co/ShFuLmC95N."" is the msg I get but then it won't let my FB log in either.",account_login,,False,
+GS_0087,All sorted. iOS update didn’t show any saved albums etc only saved playlists. Required a restart to solve issue. Many thanks for the offer.,download_offline,,True,ambiguous - matches multiple intent patterns
+GS_0088,"https://t.co/jXoYV4d7I3. Not psyched about not having a straight answer from you, your suggestions not working and me ending up troubleshooting for you... :)",app_bug,,True,ambiguous - matches multiple intent patterns
+GS_0089,"Thanks for the info! So if I have ONLY my new iPod with premium, I can access all of my playlists offline? Just to clarify!",premium_billing,,True,ambiguous - matches multiple intent patterns
+GS_0090,"Thanks for the reply! I think o have resolved it now, it didn't seem to like a password with numbers/punctuation in it?!",account_login,,True,ambiguous - matches multiple intent patterns
+GS_0091,"No, but it does shuffle only within the first 50-100 songs. No songs past that will play in shuffle mode",playback_issue,,False,
+GS_0092,"Yeah, continually saying I'm offline, or just saying error whenever I try to load a page",download_offline,,False,
+GS_0093,Nvm thank you spoke to an agent on the chat you guys have thanks for the help guys!,general_inquiry,,False,
+GS_0094,Nope just crashes goes back to home screen,app_bug,,False,
+GS_0095,"No error messages, responsiveness gets progressively more sluggish until music stops playing when the system freezes.",playback_issue,,False,
+GS_0096,My Alexa is on version 591448720. This is the latest version. I understand Alexa updates are provided automatically.,general_inquiry,,False,
+GS_0097,"general ""this song not available"" up top in the blue bar. seems to be all songs by katy perry or mumford and sons that I've found so far 🤔",content_search,,False,
+GS_0098,Here is the Screenshot. I pressed shuffle. It happens in all his songs. https://t.co/HwF5UXxPDZ,playback_issue,,False,
+GS_0099,I connect via Bluetooth. Restarting makes no difference. I also have Bluetooth headphones that shuffle fine when connected.,playback_issue,,False,
+GS_0100,"Sure, thanks! I know my workplace (as we play different accounts on the main speakers) also has this issue.",general_inquiry,,False,
+GS_0101,"Here it is! Can't play the ad, can't skip, and can't play any playlist or song. No ad-blocker turned on, either. Thx in advance! https://t.co/fGKPstPWCS",playback_issue,,False,
+GS_0102,the update is over a year old &amp; does not work,app_bug,,False,
+GS_0103,"A limit on # of songs I merely ""save"" to intend to stream later? Despite paying for Premium? Bad response. Try again, with the word ""refund""",premium_billing,,False,
+GS_0104,"Will that be soon? Also can't find Disco Santa Claus by The Rain Dolls, despite that being on UK iTunes",content_search,,False,
+GS_0105,"The message i get is ""This song is not available. If you have the file on your computer, you can import it.""",content_search,,False,
+GS_0106,"I'm in the US. Yes, this is a French release, but it was on the US Spotify for years and now it's not available.",content_search,,False,
+GS_0107,There's an album by Incubus (Fungus Amongus) that has one playable track. I can see the rest but not play them. Any idea as to why?,playback_issue,,False,
+GS_0108,"I received an email from spotify saying that my email was changed, I did not request this change, I can not login or reset my pass help-me",account_login,,False,
+GS_0109,"i have an iphone 7, ios11, and i have spotify premium",premium_billing,,False,
+GS_0110,2/2... and there is no way to manage Albums (recently added e.g.) in the App. It's a mess 😲 https://t.co/RlWuqllt8S,content_search,,False,
+GS_0111,he is in Spotify! just not available in my region yet.....,content_search,,True,ambiguous - matches multiple intent patterns
+GS_0112,"The queue is still showing the same songs in a loop. Just to clarify, the playlist DOES play different songs, I just can't see the correct queue. But yeah if I could get a fix for that soon I'd appreciate. :) And thanks for acknowledging the other thing as well. 👌",playback_issue,,True,ambiguous - matches multiple intent patterns
+GS_0113,https://t.co/iqvwikCiKp,general_inquiry,,False,
+GS_0114,Not quite. More classical music for work. But I guess I can just use this since I can't find the other one anymore - https://t.co/MBJ5OKzsg3,content_search,,False,
+GS_0115,"I already visited that page but I couldn't find anything for an email address that has been changed, just passwords changes :( is there a specific section I should be looking in?",account_login,,False,
+GS_0116,If you’re gonna drastically change things at least give us a walk through so we know how things work and where you moved things to. But right now I can’t search for an artist or find any of my saved playlists or my curated “radio stations”,download_offline,,False,
+GS_0117,Thanks it seems to be ok now after the device logout / login. Thanks,account_login,,True,ambiguous - matches multiple intent patterns
+GS_0118,"No crashes, just started playing this 82 minute long radio show in the middle of my playlist! Restarting the app fixed it but this particular ad may actually be a full show that for some reason is running as an ad.",app_bug,,False,
+GS_0119,Uninstalled and reinstalled app and it's OK now. It wasn't actually on offline mode when I logged in.,download_offline,,False,
+GS_0120,"Yep, they are! It's very repeatable too.if the phone is left on spotify and screen locks, unlocking disconnects it and stops payback. If spotify is minimised and brought back into the foreground it immediately stops playback and disconnects. If background for &gt;5 min sptfy closes",playback_issue,,False,
+GS_0121,No error codes. On my phone whenever I select a frank song whatever’s playing stops and the bar on the bottom disappears,app_bug,,False,
+GS_0122,"Oh, I'm sorry po! Yes, It's fine with me. 😊 So, let's say.. after the Promo. Will it deduct automatically as the normal Premium of Spotify? Since Spotify has our credit/debit card no.? Sorry, I'm really confused. Thank you!",premium_billing,,True,ambiguous - matches multiple intent patterns
+GS_0123,Fixed it! Thank you! :D,general_inquiry,,False,
+GS_0124,Great. So now the official way is to create a “downloads” playlist and download that playlist? That sounds hacky af.,download_offline,,False,
+GS_0125,"No, it doesn't. The songs are not available in desktop version of app also. https://t.co/4nvtIepxGU",content_search,,True,ambiguous - matches multiple intent patterns
+GS_0126,"Frequently freezes mid-song. Sometimes for a few seconds, Sometimes for as long as a minute. Pause and play commands take up to 40 secs",playback_issue,,False,
+GS_0127,What the H E C K does “Shuffle with Connect mean”?,playback_issue,,False,
+GS_0128,"I do not get any error messages on my phone (Samsung Galaxy S8+), but i do get a ""Song not available"" message on my computer (Windows 10).",content_search,,False,
+GS_0129,I've been using Spotify as my exclusive music player for almost 7 years and I never listen to remixes.,general_inquiry,,False,
+GS_0130,"I tried restarting the device and it's still the same, i havent tried logging it out. Wait 😊",account_login,,False,
+GS_0131,"Hi your link that you sent is error 404 cannot found, pls check about it. Thanks ;)",app_bug,,True,ambiguous - matches multiple intent patterns
+GS_0132,"""Song is not available"" in the blue bar. Do you have a public bug tracker? I have more.",content_search,,False,
+GS_0133,Tried all that. Not working. The App is working fine after I turned off the hardware enhanced option.,app_bug,,False,
+GS_0134,"I have the same situation.. I don't have credit card,but I want to avail the 9php premium thru mobile mode of payment",premium_billing,,False,
+GS_0135,"I can't find the old version of No Limit (without the extra verse) and I had it saved, but that song now has the extra verse.",content_search,,False,
+GS_0136,My laptop runs on Windows 10 and my Spotify is the latest update,app_bug,,False,
+GS_0137,my downloaded songs,download_offline,,False,
+GS_0138,When listening to my downloads offline. But the songs still skip whether I'm on Wi-Fi or not.,playback_issue,,True,ambiguous - matches multiple intent patterns
+GS_0139,Then I’m canceling premium,premium_billing,,False,
+GS_0140,"The app keeps crashing after I play a song too. I’m on iPhone 6, ios11 and spotify version 8.4.24, thanks RC",app_bug,,True,ambiguous - matches multiple intent patterns
+GS_0141,I rely on phone as my music player. Only download over WiFi. So if my downloads disappear I can be without music for days if traveling 2/2,download_offline,,False,
+GS_0142,Still waiting 😂 you guys are gonna be a whole day behind in UK at this rate. What gives,general_inquiry,,False,
+GS_0143,"I don’t get it, but Usher is available here in PH. Only Separated is not available 😞",content_search,,False,
+GS_0144,Windows 7. I'm not sure which spotify version since it won't let me open the app,general_inquiry,,False,
+GS_0145,Nvm it’s not working anymore in incognito,app_bug,,False,
+GS_0146,Logout &gt; Restart &gt; Login &gt; Change Album = works! Thanks!,account_login,,True,ambiguous - matches multiple intent patterns
+GS_0147,"Tried on my Android. Not working. Tried on a coworker computer with my account, not working also. Working with his account :)",app_bug,,False,
+GS_0148,No error message. The app would freeze and when shut off and reopened I’d be logged out. Upon logging in every downloaded song is gone,playback_issue,,True,ambiguous - matches multiple intent patterns
+GS_0149,"Nah man it's your app without premium I can't play whatever song I want on mobile, therefore, Spotify is dumb",premium_billing,,False,
+GS_0150,"looks like it worked! (though success message was ""you're premium now!"" and checking my account looks like i'm still monthly, but looking closer reveals my next bill date is december 2018. just a little wonky like maybe the system wasn't designed for this. anyhow, thx 4 help!",premium_billing,,False,
+GS_0151,"Logging out and back in seems to have worked for now, I’ll let you know if it happens again.",account_login,,False,
+GS_0152,"It’s and iPhone 7 with ios 11.0.3 and the Spotify version is 8.4.26.793 and it’s not just me this happening to, it’s happening to my friends 2",general_inquiry,,False,
+GS_0153,"Finally, it's work. Thank you so much.",general_inquiry,,False,
+GS_0154,Al necessary updates done. Empty cache done... web based spotify is faster. But I think my Spotify Premium deserves to be fast.,premium_billing,,False,
+GS_0155,"Like I am playing the Global Top 50 Album here. In most services you have repeat all, repeat song, repeat off. With Spotify only ""Enable repeat one"" is available and that too doesn't work as the song isn't put in a loop even after enabling it. https://t.co/NBoh6YSxCC",playback_issue,,True,ambiguous - matches multiple intent patterns
+GS_0156,Once I bought it the app kept skipping through songs and not playing anything but it stops and plays 7 commercials in a row and the skips through every song again.,playback_issue,,False,
+GS_0157,"Yes, I'm still having this issue, I can't log in with my spotify account but I can log in with my Facebook account.",account_login,,False,
+GS_0158,https://t.co/ERLxIw0uMA,general_inquiry,,False,
+GS_0159,Android version 7.0 Happens during either. I only tend to listen to songs or playlists that i've previously downloaded https://t.co/mxHvZA2654,download_offline,,False,
+GS_0160,I been shouting. I want to access my library on my Roku. I’d also like the repeat function to actually work.,playback_issue,,False,
+GS_0161,Is the only way to change my password is to reset it?,account_login,,False,
+GS_0162,"Please pass it on, it’s a very weird system not to allow updating address without deleting the account. Thanks, but my situation is okay for now!",general_inquiry,,False,
+GS_0163,Downloaded songs are working fine but I can’t browse 🙄,download_offline,,False,
+GS_0164,"I keep getting a ""this song is not available"" message for just one song in an entire album. That song works for my friends.",content_search,,False,
+GS_0165,It Worked! Thank You So Much!,general_inquiry,,False,
+GS_0166,reezal93 that's my username and my account's email address is __email__,account_login,,False,
+GS_0167,"Windows 8.1 64 bit and spotify 1.0.65.320.gac7a8e02, i just downloaded from the website and reinstalled, still doesn't work",app_bug,,True,ambiguous - matches multiple intent patterns
+GS_0168,It does meet all requirements. I’ve used a prepaid card many times previously. Not sure why they are suddenly not being accepted?,premium_billing,,False,
+GS_0169,"It just keep showing this ads and I need kill the app to remove it, the dismiss button is not working https://t.co/aBHnWvJpyA",app_bug,,False,
+GS_0170,"It happens every time I shut off my computer and turn it back on. Just happened again. It saves other settings, but that one reverts",general_inquiry,,False,
+GS_0171,"Ya, those 5 songs I really wanted to save from last week but can’t find now. Ha",content_search,,False,
+GS_0172,"yup, I’ve tried to logout, restart, login.. I’ve tried to uninstall and reinstall https://t.co/1ipu4kYSn8 and nothing is changed.",account_login,,False,
+GS_0173,"I just renewed. No issue, I just didn't know it was expiring and thought something was broken",app_bug,,False,
+GS_0174,On iPhone 6S and Spotify Premium!,premium_billing,,False,
+GS_0175,"Either my mobile (android) or desktop (windows 10). It doesnt respond when i click them, if i try shuffle i get ""this song is not available""",playback_issue,,True,ambiguous - matches multiple intent patterns
+GS_0176,Latest update of Spotify and on pixel xl,app_bug,,False,
+GS_0177,"but I can't find preferences anymore, so I just blocked all Spotify notifications instead,",content_search,,False,
+GS_0178,Hi. I’m using iPhone 7+ with iOS11. My Spotify is 8.4.20.535. Hope you can help me with this. Thanks.,general_inquiry,,False,
+GS_0179,"Yes, iPhone 7 &amp; iOS 11.1.1 I’ve seen it’s a known issue and one of the troubleshooting techniques was uninstalling and redownload but it didn’t work for long",download_offline,,False,
+GS_0180,"Tried that, does not work.",app_bug,,False,
+GS_0181,"I do indeed have a Spotify account and I""m logged in! Perhaps I'm blind, but I cannot find the correct 'click pathway' to be able to submit",content_search,,False,
+GS_0182,Done! Thanks!!! 💝,general_inquiry,,False,
+GS_0183,"Thanks for getting back to me. My question is - when you ""shuffle"" a playlist is it truly random? For at least the past year it feels like the same songs keep coming up even though there are over 2k on the playlist.",playback_issue,,True,ambiguous - matches multiple intent patterns
+GS_0184,it still doesn't work. Seems like it might be their problem but thanks anyway for your help and response.,app_bug,,True,ambiguous - matches multiple intent patterns
+GS_0185,Is Spotify not available in India? I'm from Malaysia and is currently studying in India. I can't gain access to my account here,content_search,,True,ambiguous - matches multiple intent patterns
+GS_0186,"Galaxy note 5, Android, and idk the spotify version. It's the latest app, as I tried uninstalling and redownloading",download_offline,,False,
+GS_0187,"its not available here, so when will it be? https://t.co/Bc1zzZhoky",content_search,,False,
+GS_0188,But can I put my account number in so my payment can still comes out,premium_billing,,False,
+GS_0189,English is fine! I went from premium to premium family and I want to add my daughter. She got the invitationcode by mail. But hasn’t got a account yet. What to do?,premium_billing,,False,
+GS_0190,"But I don’t think I’ve downloaded 10k songs?🤔 thanks for your help, I’ll take a look at the link.",download_offline,,True,ambiguous - matches multiple intent patterns
+GS_0191,Thanks. It's all on normal recommended. It must be wrong. I literally have two playlists 70 songs each and 2 albums with 21 songs. I can't download anymore. Makes no sense having premium. Help,premium_billing,,True,ambiguous - matches multiple intent patterns
+GS_0192,"I am on my samsung galaxy note 4 and i am on the mobile app. I try to sign in and it says ""we are currently experiencing problems, please try again later."" I've uninstalled and reinstalled twice now.",account_login,,False,
+GS_0193,This will be the 4th time I've downloaded them. They become available offline for all of a week or so then I have to do this all over again. I'm sick of it.,download_offline,,False,
+GS_0194,I already listen that playlist.. But i want the new album.. :/,general_inquiry,,False,
+GS_0195,... only to have the issue repeat itself. 2/2,playback_issue,,False,
+GS_0196,Ok thanks. I’m listening to music most the time and doing something else. Maybe have a Seperate music video playlist and normal playlist?,general_inquiry,,False,
+GS_0197,"Looks like I need log in more regularly, seems to have worked for now. Thanks.",account_login,,True,ambiguous - matches multiple intent patterns
+GS_0198,I have had your premium service included with my services for a long time. I was suddenly shut down to free. They say it’s you,premium_billing,,False,
+GS_0199,This is the song that was not playing correctly but it seems to be working fine now! https://t.co/xLTWj1xbYa,playback_issue,,False,
+GS_0200,Ive had her music on my spotify list ever since i signed up for spotify premium in 2015. So i find it quite ridiculous that I didnt get one,premium_billing,,False,
+GS_0201,Everything is fine! Thanks.,general_inquiry,,False,
+GS_0202,"I can‘t get a Swedish credit card, though, since I don‘t have a Personnummer. Is there another way for me to pay?",premium_billing,,False,

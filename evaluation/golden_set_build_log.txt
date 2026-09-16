@@ -1,0 +1,38 @@
+Golden Set Build Log
+====================
+Total examples:        203
+Ambiguous examples:    45
+
+Sampling method:
+  - Keyword-rule suggested labels using conservative regex patterns.
+  - Stratified: up to 29 examples per intent (7 intents = ~203 total).
+  - Messages shorter than 15 characters excluded.
+  - Random state = 42 for reproducibility.
+  - Final set shuffled before saving.
+
+Intent distribution:
+  playback_issue            29
+  premium_billing           29
+  account_login             29
+  app_bug                   29
+  download_offline          29
+  general_inquiry           29
+  content_search            29
+
+Leakage prevention:
+  - This file must NOT be used for classifier training.
+  - Training data is drawn from the remaining interactions.csv rows.
+  - The golden set tweet IDs are saved so they can be excluded from
+    the training split in later phases.
+
+Suggested label assignment:
+  - Primary label = first matching intent pattern (priority order).
+  - Ambiguous flag set when >1 pattern matches.
+  - Unmatched messages fall back to general_inquiry in the suggestion logic.
+  - human_intent and should_escalate are intentionally blank.
+  - All rows must be manually reviewed before final evaluation.
+
+Double-label sample:
+  - 50 examples sampled with random state 42.
+  - Annotator A and B fields are intentionally blank.
+  - suggested_intent is included for reference only.

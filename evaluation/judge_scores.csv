@@ -1,0 +1,127 @@
+example_id,intent,response,correctness,groundedness,relevance,helpfulness,tone,average
+GS_0000,playback_issue,"Sorry to hear that. Can you let us know the device, operating system, and Spotify version you're using? /JE",5,5,2,2,4,3.6
+GS_0001,general_inquiry,"Awesome, that's what we like to hear! If you need us again, just... https://t.co/AUc7DGJpgF /MA",5,5,3,2,3,3.6
+GS_0002,download_offline,"2: about offline listening here: https://t.co/WSjJgGAmPy. For now, we'd suggest replacing some of your... /YM",5,5,2,2,3,3.4
+GS_0006,download_offline,Sorry to hear that! Check out the steps under “Downloads unexpectedly removed” at https://t.co/EidIERWgLX. They should h,5,5,3,3,4,4.0
+GS_0007,general_inquiry,Got it! Behind the Lyrics should be available to all Android users. Are you having any issues viewing them? Let us know ,5,5,2,2,3,3.4
+GS_0008,general_inquiry,"No worries! If you need us again, you know where to find us. https://t.co/uEkAlnxbzn 💚 /JN",5,5,2,2,3,3.4
+GS_0009,general_inquiry,Hmm. Does logging out &amp; back in help? Restarting your device (hold Sleep/Wake + Volume Down buttons for 10 seconds) ,5,5,2,3,3,3.6
+GS_0011,general_inquiry,"Don't worry, we're on it. Our developers are looking into this, and we'll keep everyone updated /DR",5,5,2,2,3,3.4
+GS_0012,general_inquiry,"Yup, that's right. Could you try restarting the device? Does the issue persist? /JS",5,5,2,3,3,3.6
+GS_0013,general_inquiry,Thanks. We'll get this reported. Great detective work! https://t.co/LpsmyUtme0 /PB,5,4,2,2,3,3.2
+GS_0014,general_inquiry,"That doesn't look good. Which operating system are you running? By the way, can you head over to this link to see if it'",5,5,2,2,3,3.4
+GS_0015,general_inquiry,"Thanks! Just to check, is this happening on both devices or just on your phone? /JP",5,5,2,3,3,3.6
+GS_0016,playback_issue,Thanks for the info. Can you DM us your account's email address or username? We'll take a look /NS https://t.co/ldFdZRiN,5,5,2,3,4,3.8
+GS_0017,general_inquiry,"No worries! If you ever need anything else, just shout and we'll come running 🏃 /DF",5,5,2,2,3,3.4
+GS_0018,app_bug,Alright. Could you drop us a DM? Let's carry on there /JE https://t.co/ldFdZRiNAt,5,5,2,3,3,3.6
+GS_0019,general_inquiry,"Hey, help's here! Can you give it a go on an incognito window or a different browser? Let us know how it goes /RH",5,5,2,2,3,3.4
+GS_0020,general_inquiry,"No worries! If you have any other questions, just let us know. We're... https://t.co/zOXI69QSqg 🙂 /CG",5,5,2,2,3,3.4
+GS_0023,app_bug,"Just to check, have you checked if the same thing happens on other mobile devices or computers? /JU",5,5,2,3,3,3.6
+GS_0025,general_inquiry,"Got it. Does this happen when you're playing online or offline songs? Also, what version of Spotify are you running? /NS",5,5,3,2,3,3.6
+GS_0026,general_inquiry,"Hmm. Just to check, do you have an alternative device that you can use to access Twitter and your Premium for Family ove",5,5,2,3,3,3.6
+GS_0027,general_inquiry,Awesome! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv /TF,5,4,2,2,3,3.2
+GS_0028,general_inquiry,No worries! Give us a shout if you need anything else /I,5,4,2,2,3,3.2
+GS_0029,download_offline,We hear you 🎧 Thanks for taking the time to reach out – your feedback will be passed on to the right folks. For anything,5,5,3,3,5,4.2
+GS_0032,download_offline,Got it! Could you also fire over the album's URI? Just go to the album &gt; 3 dots &gt; Share &gt; URI. We'll take a loo,5,5,2,3,3,3.6
+GS_0037,download_offline,"Don't worry, we can assure you that your downloads should stay safe and sound after those steps. Let us know how it goes",5,5,3,2,3,3.6
+GS_0038,content_search,"Thanks. If it's not too much trouble, can you try using a difference device to see if the same thing'll happen? Let us k",5,5,2,3,3,3.6
+GS_0041,general_inquiry,"Got it! Could you try clearing your cache/cookies? Also, do you only see this in the web player or in the app as well? L",5,5,4,3,3,4.0
+GS_0043,app_bug,Hmm. Could you send us a DM with your account's email address or username? We'll take a look backstage /DR https://t.co/,5,5,2,4,3,3.8
+GS_0044,playback_issue,"Hmm. Can you let us know the exact device, Android, and app versions you're using? We'll wait for your reply /PB",5,5,2,2,3,3.4
+GS_0047,download_offline,Is this happening when streaming other albums? Can you send us the link to his album? Just tap the three dots &gt; Share,5,5,2,3,3,3.6
+GS_0048,playback_issue,Thanks for trying. Does the same thing happen to any songs or playlists? What about on a different device? /CO,5,5,2,2,4,3.6
+GS_0049,general_inquiry,"Thanks. Does logging out, restarting your phone, and logging back in help at all? /YM",5,5,2,2,3,3.4
+GS_0050,content_search,"Hmm, that's odd. Does logging out &gt; restarting the device &gt; logging back in help? Keep us posted /MQ",5,5,2,2,3,3.4
+GS_0051,general_inquiry,"2. In the meantime, we'd suggest reinstalling the app to your Roku device to see if that helps. Let us know how you get ",5,5,2,2,3,3.4
+GS_0054,download_offline,Hmm. Can you DM us your account's email address? We'll check backstage and see what we can suggest /NY https://t.co/ldFd,5,5,2,4,3,3.8
+GS_0056,general_inquiry,Hi Troy! Were you able to stream Cage The Elephant's tracks again? /RR,5,4,2,2,3,3.2
+GS_0057,download_offline,"We're glad that it's working now and we apologize for the inconvenience. If you need help with anything else, just give ",5,5,2,2,3,3.4
+GS_0058,general_inquiry,"Hey! We do care. Not to worry, we're passing on all feedback about this. We'll make sure to keep everybody posted for up",5,5,4,2,3,3.8
+GS_0059,general_inquiry,We can see that it's available in the US. Can you try logging out &gt; restarting your phone &gt; logging back in to see,5,5,4,3,3,4.0
+GS_0061,content_search,"Hmm, that's odd. Does logging out &gt; restarting the device &gt; logging back in help? Keep us posted /MQ",5,5,2,2,3,3.4
+GS_0063,general_inquiry,Great! Glad to hear it worked. You know where to find us if the issue happens again /PL,5,5,3,2,3,3.6
+GS_0065,general_inquiry,Sounds like a plan. We'll keep an eye out for your update /JS,5,5,4,3,3,4.0
+GS_0066,download_offline,"Thanks for the heads-up. Just to clarify, did the issue still persist after you removed your offline songs? Keep us post",5,5,3,2,4,3.8
+GS_0070,download_offline,"Awesome, thanks for letting us know. Enjoy the music! https://t.co/SkdXv2BhCb /BH",5,4,2,2,4,3.4
+GS_0071,general_inquiry,"Hmm. What happens if you click on ""Send a private message""? A different browser can also do the trick. We'll be right he",5,5,2,4,3,3.8
+GS_0073,general_inquiry,"We hear you 🎧 Rest assured, your feedback will be passed on to the right folks. In the meantime, if you have any other q",5,5,2,2,4,3.6
+GS_0075,download_offline,"Awesome, thanks for letting us know. Give us a shout if you need us again. For now, enjoy the music! https://t.co/SkdXv2",5,5,2,2,4,3.6
+GS_0077,playback_issue,"Sorry to hear that. Can you let us know the device, operating system, and Spotify version you're using? /JE",5,5,3,2,4,3.8
+GS_0078,download_offline,"Thanks for the heads-up. Just to clarify, did the issue still persist after you removed your offline songs? Keep us post",5,5,3,2,4,3.8
+GS_0081,general_inquiry,Hmm. Could you send us a DM with your account's email address or username? We'll take a look backstage /CH https://t.co/,5,5,2,4,3,3.8
+GS_0083,general_inquiry,Okay. Could you DM us your account's username and email address? We'll take a look backstage /JX,5,5,2,3,3,3.6
+GS_0084,download_offline,We understand. Our best tech folks are on the case as we speak. Hopefully we'll have a fix soon! /PB,5,5,2,2,4,3.6
+GS_0085,download_offline,Hi Udit! We've just replied to your DM. Check it out /MC,5,3,2,4,3,3.4
+GS_0087,general_inquiry,Hi Andrew! Glad to hear everything's sorted now. Just let us know if we can help with anything else. https://t.co/m4HWSb,5,5,2,2,3,3.4
+GS_0088,general_inquiry,That's good to hear! Give us a shout if you need us again. Otherwise... https://t.co/SkdXv2BhCb /JO,5,4,2,2,3,3.2
+GS_0091,playback_issue,Hmm. Can you fire over the versions of your iOS and Spotify app? We'll see what we can suggest /PC,5,5,2,2,3,3.4
+GS_0092,download_offline,Alright! Could you DM us your Spotify account's email address or username? We'll take a look under the hood /BH https://,5,5,2,3,3,3.6
+GS_0093,general_inquiry,You're welcome! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv /AP,5,5,2,2,3,3.4
+GS_0094,app_bug,"Got it. Is this happening via WiFi, 3G/4G, or both? Does restarting your connection help at all? Keep us posted /NY",5,5,2,2,3,3.4
+GS_0096,general_inquiry,Got it. Does logging out &gt; restarting your computer &gt; logging back in help at all? Keep us posted /MT,5,5,2,2,3,3.4
+GS_0097,content_search,"That's right. No worries, we'll let the right team know it's something you'd like to see /RP",5,5,2,2,3,3.4
+GS_0098,playback_issue,"Your Queue automatically plays similar songs so the music never stops, allowing you to discover... https://t.co/tRfypwKj",5,5,4,2,3,3.8
+GS_0100,general_inquiry,No worries! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv /RS,5,4,3,2,3,3.4
+GS_0102,app_bug,"Got it.Is this happening while connected to WiFi, 3G/4G or both? /KL",5,4,2,2,3,3.2
+GS_0104,general_inquiry,"We understand. We don't have any updates yet, but we hope to have them as soon as we can. Let us know if there's anythin",5,5,2,2,4,3.6
+GS_0105,content_search,"Thanks. If it's not too much trouble, can you try using a difference device to see if the same thing'll happen? Let us k",5,5,2,3,3,3.6
+GS_0106,general_inquiry,"Got it. Due to licensing, some countries may have some music that other countries don't. Hope this clears things up /GK",5,5,2,2,3,3.4
+GS_0107,general_inquiry,Thanks for letting us know. Fingers crossed we’ll have it available to you as soon as it’s available to us! More info he,5,5,2,2,4,3.6
+GS_0110,general_inquiry,"This isn't possible right now, but we appreciate the feedback. We'll let the right team know it's something you'd like t",5,5,2,2,3,3.4
+GS_0112,general_inquiry,No worries. Feel free to check out https://t.co/RT7XNMNEAr for other sharing options. Let us know if there's anything el,5,5,2,3,3,3.6
+GS_0113,general_inquiry,Thanks for the info. We can see that the songs are fine on our end. Can you let us know what country you're currently in,5,5,2,2,4,3.6
+GS_0114,general_inquiry,"2: in, that'd be great. We'll take a look backstage /LO https://t.co/ldFdZRiNAt",5,4,2,2,3,3.2
+GS_0115,general_inquiry,"We have email support at https://t.co/ZgU70TbP8M, or you could also send us a DM instead with your account's email addre",5,5,3,4,3,4.0
+GS_0116,general_inquiry,1: We appreciate you sharing your thoughts. We're passing on all feedback about this.,5,4,2,2,3,3.2
+GS_0118,general_inquiry,Thanks! Does it happen when you use the web player in an incognito or a private browsing window? /SY,5,5,2,2,3,3.4
+GS_0119,download_offline,"Hmm, that's odd. Can you DM us your account's username and email address? We'll take a look backstage /MQ https://t.co/l",5,5,2,3,3,3.6
+GS_0121,general_inquiry,Can you try reinstalling the app? Just follow the steps here: https://t.co/cxGHt0bCR8. Keep us posted /PL,5,5,2,3,3,3.6
+GS_0123,general_inquiry,"Awesome! If there's anything else you need, just give us a shout /TJ",5,5,2,2,3,3.4
+GS_0124,download_offline,2: keep the music in Your Library though 🙂 Hope that explains it /GS,5,4,3,2,3,3.4
+GS_0127,playback_issue,"1: Spotify Connect lets you use the app as a remote for other devices. More info here: https://t.co/64CIqBa0nw. Also, we",5,5,3,2,3,3.6
+GS_0129,general_inquiry,"We hear you 🎧 Rest assured, your feedback will be passed on to the right folks /DF",5,4,2,2,4,3.4
+GS_0131,general_inquiry,"Awesome. If anything else comes up, just give us a shout. Happy listening 🎶 /LP",5,5,2,2,3,3.4
+GS_0132,content_search,"That's right. No worries, we'll let the right team know it's something you'd like to see /RP",5,5,2,2,3,3.4
+GS_0133,app_bug,Got it! Can you DM us your account's username or email address? We'll take a look backstage /PL https://t.co/ldFdZRiNAt,5,5,2,3,3,3.6
+GS_0135,general_inquiry,"We're glad you like it. Thanks for the feedback, it's music to our ears 🎶 /DR",5,4,2,2,4,3.4
+GS_0137,download_offline,We're afraid this isn't possible as the songs you downloaded would only be saved into the Spotify app. Hope that clears ,5,5,4,2,3,3.8
+GS_0138,download_offline,"Hmm. It's not ideal, but a reinstall might help. Just follow the steps here: https://t.co/EqisDMwZAT. Fingers crossed th",5,5,3,2,3,3.6
+GS_0140,general_inquiry,"Got it. Try logging out, restarting your device, and logging back in. Does that help? /RA",5,5,2,3,3,3.6
+GS_0141,download_offline,Sounds good! Just keep us posted if the problem persists. We'll be here to help /CG,5,5,2,2,3,3.4
+GS_0142,general_inquiry,We're afraid we're unable to give you an exact date yet. Don't forget to add your email to the link we've sent earlier t,5,5,2,2,3,3.4
+GS_0144,general_inquiry,Sorry to hear that. We'd suggest getting in touch with UNiDAYS if your institution isn't being recognized. They'll be gl,5,5,2,2,4,3.6
+GS_0147,app_bug,We hear you. Could you try this out on a desktop? We'll be waiting for your reply /JQ,5,4,2,3,4,3.6
+GS_0152,general_inquiry,"Just to check, are you able to play music fine, but the lock-screen controls are unavailable? We'll keep an eye out for ",5,5,2,3,3,3.6
+GS_0153,general_inquiry,You're welcome! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv 🙂 /NY,5,5,2,2,3,3.4
+GS_0155,playback_issue,Hmm. Can you try restarting your device by holding the Sleep/Wake + Volume Down buttons for 10 seconds? Keep us posted /,5,5,2,3,3,3.6
+GS_0156,playback_issue,Can you send us the Song Link? Just tap the three dots &gt; Share &gt; Copy Link. We'll check things out /NG,5,5,2,4,3,3.8
+GS_0158,general_inquiry,Thanks for the info. We can see that the songs are fine on our end. Can you let us know what country you're currently in,5,5,2,2,4,3.6
+GS_0159,download_offline,Thanks! Can you DM us your account's email address? We'll take a look backstage /JN https://t.co/ldFdZRiNAt,5,5,2,3,3,3.6
+GS_0160,playback_issue,"That sounds like a plan. We'll be keeping an eye out for your update. In the meantime, if you have any other questions, ",5,5,2,3,3,3.6
+GS_0162,general_inquiry,"For sure! If you ever need anything else, just shout and we'll come running 🏃 /AQ",5,5,2,2,3,3.4
+GS_0163,download_offline,Awesome! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv 😁 /AU,5,4,2,2,3,3.2
+GS_0164,content_search,Hmm. Best thing to try here is a reinstall. Just follow the steps at https://t.co/EqisDMwZAT. Keep us posted! /RK,5,5,3,3,3,3.8
+GS_0165,general_inquiry,"You're welcome! Glad to hear it's working now. For anything else, just give us a shout. https://t.co/uEkAlnxbzn 🙂 /MU",5,5,2,2,3,3.4
+GS_0170,general_inquiry,Is this happening to all of your playlists or albums? Can you DM us your account's username or email? We'll check things,5,5,2,4,3,3.8
+GS_0171,general_inquiry,"We understand. Fingers crossed we'll be able to have it again soon, but there's info about Spotify content here: https:/",5,5,2,2,4,3.6
+GS_0173,general_inquiry,"Sure thing! If you need us again, you know where to find us. Enjoy your music 🎧 /JN",5,4,3,2,3,3.4
+GS_0175,playback_issue,"Got it. Can you DM us your account's email address, device's make/model, OS, and Spotify version? We'll see what we can ",5,5,2,3,3,3.6
+GS_0176,app_bug,Got it! Can you DM us your account's email address? We'll take a look under the hood /RA https://t.co/ldFdZR1cbT,5,5,2,3,3,3.6
+GS_0177,general_inquiry,No worries! Give us a shout if you need anything else /I,5,4,2,2,3,3.2
+GS_0178,general_inquiry,"Thanks for checking. Also, des this happen on cellular data, WiFi, or both? /JU",5,5,4,2,4,4.0
+GS_0180,app_bug,Alright. Could you drop us a DM? Let's carry on there /JE https://t.co/ldFdZRiNAt,5,5,2,3,3,3.6
+GS_0181,general_inquiry,Thanks for the info. Can you try signing up at https://t.co/dReeg1kWo5 using a different browser or an incognito/private,5,5,2,3,4,3.8
+GS_0182,general_inquiry,No worries! Let us know if you have any other questions 😁 /CE,5,5,2,2,3,3.4
+GS_0183,general_inquiry,"No problem! If you need us again, just give us a shout. https://t.co/uQiQuWow27 🙂 /NY",5,5,2,2,3,3.4
+GS_0184,general_inquiry,"Sure thing! If you need us again, you know where to find us. https://t.co/uQiQuWow27 🙂 /JN",5,5,2,2,3,3.4
+GS_0186,download_offline,Hi! We don't support apps downloaded from third-party app stores. We suggest following the steps at https://t.co/EqisDMw,5,5,2,2,3,3.4
+GS_0187,general_inquiry,We're afraid we don't have any info on this right now. Fingers crossed we'll be able to have it soon! /NS,5,5,2,2,3,3.4
+GS_0190,download_offline,"We're glad that it's working now and we apologize for the inconvenience. If you need help with anything else, just give ",5,5,2,2,3,3.4
+GS_0192,general_inquiry,Alright. Can you send us the Song Link then? Just tap the three dots &gt; Share &gt; Copy Link. We'll have a look /AG,5,5,2,3,3,3.6
+GS_0193,download_offline,Got it! Could you check out the steps under “Downloads unexpectedly removed” at https://t.co/38J7tFlIBF? Let us know how,5,5,2,3,3,3.6
+GS_0194,general_inquiry,"Don't worry, we’ll have it available to you as soon as it’s available to us. There's more info here: https://t.co/0i8Gpi",5,5,2,2,3,3.4
+GS_0195,playback_issue,Hmm. Can you DM us your account's username or email address? We'll check things out for you /YM https://t.co/ldFdZRiNAt,5,5,2,4,3,3.8
+GS_0196,general_inquiry,"Hmm. Can you let us know your device, operating system, and Spotify version? We'll check things out /CH",5,4,2,3,3,3.4
+GS_0197,general_inquiry,"Awesome! Glad to hear it's working now. If you ever need us again, just give us a shout. We'd be... https://t.co/LgAM6ky",5,5,3,2,3,3.6
+GS_0199,general_inquiry,Great! Glad to hear it's working. Just let us know if we can help with anything else. https://t.co/m4HWSbgHVZ /GK,5,5,3,2,3,3.6
+GS_0201,general_inquiry,No worries! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv /RS,5,5,2,2,3,3.4

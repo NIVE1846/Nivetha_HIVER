@@ -1,0 +1,204 @@
+example_id,true_intent,pred_intent,intent_confidence,route,evidence_score,response,validation_passed,escalation_reason,should_escalate
+GS_0000,app_bug,playback_issue,0.9586,AUTO_HANDLE,0.2194,"Sorry to hear that. Can you let us know the device, operating system, and Spotify version you're using? /JE",True,,NO
+GS_0001,premium_billing,general_inquiry,0.9478,AUTO_HANDLE,0.5235,"Awesome, that's what we like to hear! If you need us again, just... https://t.co/AUc7DGJpgF /MA",True,,NO
+GS_0002,account_login,download_offline,0.9953,AUTO_HANDLE,0.1463,1: Increasing the limit is definitely something for the team to consider and we'll make sure it reaches them. We have more info... /YM,True,,NO
+GS_0003,account_login,account_login,1.0,ESCALATE,0.2204,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0004,app_bug,account_login,0.9683,ESCALATE,0.2151,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0005,download_offline,app_bug,0.5297,ESCALATE,0.1493,,False,Intent confidence 0.53 is below threshold 0.7. Uncertain classification.,NO
+GS_0006,content_search,download_offline,0.9768,AUTO_HANDLE,0.158,Sorry to hear that! Check out the steps under “Downloads unexpectedly removed” at https://t.co/EidIERWgLX. They should help with this /SY,True,,NO
+GS_0007,general_inquiry,general_inquiry,0.9933,AUTO_HANDLE,0.2288,Got it! Behind the Lyrics should be available to all Android users. Are you having any issues viewing them? Let us know /PB,True,,NO
+GS_0008,app_bug,general_inquiry,1.0,AUTO_HANDLE,1.0,No worries! Just give us a shout if the problem persists. We're... https://t.co/zOXI69QSqg /GS,True,,NO
+GS_0009,account_login,general_inquiry,1.0,AUTO_HANDLE,0.8569,Hmm. Does logging out &amp; back in help? Restarting your device (hold Sleep/Wake + Volume Down buttons for 10 seconds) is also worth a try /LP,True,,NO
+GS_0010,app_bug,account_login,0.9969,ESCALATE,0.24,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0011,content_search,general_inquiry,0.967,AUTO_HANDLE,0.3646,"Don't worry, we're on it. Our developers are looking into this, and we'll keep everyone updated /DR",True,,NO
+GS_0012,general_inquiry,general_inquiry,0.9734,AUTO_HANDLE,0.3237,"Yup, that's right. Could you try restarting the device? Does the issue persist? /JS",True,,YES
+GS_0013,general_inquiry,general_inquiry,0.9972,AUTO_HANDLE,0.3083,Thanks. We'll get this reported. Great detective work! https://t.co/LpsmyUtme0 /PB,True,,YES
+GS_0014,playback_issue,general_inquiry,0.9973,AUTO_HANDLE,0.2515,"That doesn't look good. Which operating system are you running? By the way, can you head over to this link to see if it'll work: https://t.co/MQtBW54x7q? /YM",True,,NO
+GS_0015,playback_issue,general_inquiry,0.9981,AUTO_HANDLE,0.2153,"Thanks! Just to check, is this happening on both devices or just on your phone? /JP",True,,NO
+GS_0016,playback_issue,playback_issue,0.9831,AUTO_HANDLE,0.1888,Thanks for the info. Can you DM us your account's email address or username? We'll take a look /NS https://t.co/ldFdZRiNAt,True,,NO
+GS_0017,app_bug,general_inquiry,0.9832,AUTO_HANDLE,0.5109,"No worries! If you ever need anything else, just shout and we'll come running 🏃 /DF",True,,NO
+GS_0018,content_search,app_bug,0.9971,AUTO_HANDLE,0.5643,Alright. Could you drop us a DM? Let's carry on there /JE https://t.co/ldFdZRiNAt,True,,NO
+GS_0019,app_bug,general_inquiry,0.9521,AUTO_HANDLE,0.2201,"Hey, help's here! Can you give it a go on an incognito window or a different browser? Let us know how it goes /RH",True,,NO
+GS_0020,premium_billing,general_inquiry,1.0,AUTO_HANDLE,0.1777,"No worries! If you have any other questions, just let us know. We're... https://t.co/zOXI69QSqg 🙂 /CG",True,,NO
+GS_0021,premium_billing,premium_billing,0.987,ESCALATE,0.2179,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0022,app_bug,premium_billing,0.4745,ESCALATE,0.2017,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,YES
+GS_0023,playback_issue,app_bug,0.9997,AUTO_HANDLE,0.4374,"Just to check, have you checked if the same thing happens on other mobile devices or computers? /JU",True,,NO
+GS_0024,playback_issue,download_offline,0.4901,ESCALATE,0.2266,,False,Intent confidence 0.49 is below threshold 0.7. Uncertain classification.,NO
+GS_0025,content_search,general_inquiry,0.9822,AUTO_HANDLE,0.153,"Got it. Does this happen when you're playing online or offline songs? Also, what version of Spotify are you running? /NS",True,,NO
+GS_0026,account_login,general_inquiry,0.9897,AUTO_HANDLE,0.2267,"Hmm. Just to check, do you have an alternative device that you can use to access Twitter and your Premium for Family overview page? /KB",True,,NO
+GS_0027,content_search,general_inquiry,0.7272,AUTO_HANDLE,0.2834,Awesome! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv /TF,True,,NO
+GS_0028,download_offline,general_inquiry,0.9446,AUTO_HANDLE,0.1414,No worries! Give us a shout if you need anything else /I,True,,NO
+GS_0029,account_login,download_offline,0.9599,AUTO_HANDLE,0.3094,"We hear you 🎧 Thanks for taking the time to reach out – your feedback will be passed on to the right folks. For anything else, feel free to send a tweet our way /DN",True,,NO
+GS_0030,account_login,account_login,0.9999,ESCALATE,0.6184,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0031,download_offline,account_login,0.9316,ESCALATE,0.187,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0032,account_login,download_offline,0.9959,AUTO_HANDLE,0.1978,Got it! Could you also fire over the album's URI? Just go to the album &gt; 3 dots &gt; Share &gt; URI. We'll take a look under the hood /JM,True,,NO
+GS_0033,account_login,account_login,0.5724,ESCALATE,0.1741,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0034,premium_billing,account_login,0.9999,ESCALATE,0.1725,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0035,download_offline,premium_billing,0.748,ESCALATE,0.1935,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0036,download_offline,download_offline,0.6971,ESCALATE,0.1444,,False,Intent confidence 0.70 is below threshold 0.7. Uncertain classification.,NO
+GS_0037,playback_issue,download_offline,0.9459,AUTO_HANDLE,0.1908,"Don't worry, we can assure you that your downloads should stay safe and sound after those steps. Let us know how it goes /QI",True,,NO
+GS_0038,account_login,content_search,0.9809,AUTO_HANDLE,0.7283,"Thanks. If it's not too much trouble, can you try using a difference device to see if the same thing'll happen? Let us know how it goes /DR",True,,NO
+GS_0039,account_login,account_login,0.9585,ESCALATE,0.2499,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0040,other,account_login,0.9881,ESCALATE,0.1893,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0041,premium_billing,general_inquiry,0.9995,AUTO_HANDLE,0.2333,"Got it! Could you try clearing your cache/cookies? Also, do you only see this in the web player or in the app as well? Let us know /TY",True,,NO
+GS_0042,app_bug,premium_billing,0.9738,ESCALATE,0.1357,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0043,playback_issue,app_bug,0.9974,AUTO_HANDLE,0.3193,We've just sent a DM your way. Let's carry on chatting there /PX,True,,NO
+GS_0044,premium_billing,playback_issue,0.9447,AUTO_HANDLE,0.2938,"Hmm. Can you let us know the exact device, Android, and app versions you're using? We'll wait for your reply /PB",True,,NO
+GS_0045,premium_billing,premium_billing,0.9016,ESCALATE,0.2035,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0046,app_bug,premium_billing,0.7946,ESCALATE,0.1696,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0047,playback_issue,download_offline,0.8657,AUTO_HANDLE,0.2604,Is this happening when streaming other albums? Can you send us the link to his album? Just tap the three dots &gt; Share &gt; Copy Link /YM,True,,NO
+GS_0048,account_login,playback_issue,0.9997,AUTO_HANDLE,0.1365,Thanks for trying. Does the same thing happen to any songs or playlists? What about on a different device? /CO,True,,NO
+GS_0049,playback_issue,general_inquiry,0.9782,AUTO_HANDLE,0.2991,"Thanks. Does logging out, restarting your phone, and logging back in help at all? /YM",True,,NO
+GS_0050,general_inquiry,content_search,0.9042,AUTO_HANDLE,0.4027,"Hmm, that's odd. Does logging out &gt; restarting the device &gt; logging back in help? Keep us posted /MQ",True,,NO
+GS_0051,app_bug,general_inquiry,0.9949,AUTO_HANDLE,0.1883,"1. We understand your frustration. Rest assured, your feedback is being heard while we work with Roku on the best path forwards.",True,,NO
+GS_0052,premium_billing,premium_billing,0.9981,ESCALATE,0.5,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,YES
+GS_0053,download_offline,premium_billing,0.8495,ESCALATE,0.1849,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0054,app_bug,download_offline,0.7475,AUTO_HANDLE,0.1948,Hmm. Can you DM us your account's email address? We'll check backstage and see what we can suggest /NY https://t.co/ldFdZRiNAt,True,,NO
+GS_0055,general_inquiry,download_offline,0.553,ESCALATE,0.1663,,False,Intent confidence 0.55 is below threshold 0.7. Uncertain classification.,NO
+GS_0056,download_offline,general_inquiry,0.9999,AUTO_HANDLE,0.1827,Hi Troy! Were you able to stream Cage The Elephant's tracks again? /RR,True,,NO
+GS_0057,other,download_offline,0.9928,AUTO_HANDLE,0.2552,"We're glad that it's working now and we apologize for the inconvenience. If you need help with anything else, just give us a shout. Otherwise, have a... https://t.co/FQulrDtFky 😉 /GU",True,,NO
+GS_0058,playback_issue,general_inquiry,0.9948,AUTO_HANDLE,0.1898,"Hey! We do care. Not to worry, we're passing on all feedback about this. We'll make sure to keep everybody posted for updates /RC",True,,NO
+GS_0059,account_login,general_inquiry,0.9999,AUTO_HANDLE,0.4516,We can see that it's available in the US. Can you try logging out &gt; restarting your phone &gt; logging back in to see if it helps? /MU,True,,NO
+GS_0060,playback_issue,account_login,0.9644,ESCALATE,0.2261,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0061,general_inquiry,content_search,0.8135,AUTO_HANDLE,0.2133,"Hmm, that's odd. Does logging out &gt; restarting the device &gt; logging back in help? Keep us posted /MQ",True,,NO
+GS_0062,app_bug,premium_billing,1.0,ESCALATE,0.1691,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0063,general_inquiry,general_inquiry,0.8751,AUTO_HANDLE,0.2157,Great! Glad to hear it worked. You know where to find us if the issue happens again /PL,True,,NO
+GS_0064,general_inquiry,playback_issue,0.5829,ESCALATE,0.1384,,False,Intent confidence 0.58 is below threshold 0.7. Uncertain classification.,NO
+GS_0065,download_offline,general_inquiry,0.9902,AUTO_HANDLE,0.2699,Sounds like a plan. We'll keep an eye out for your update /JS,True,,NO
+GS_0066,app_bug,download_offline,0.9872,AUTO_HANDLE,0.2704,"Thanks for the heads-up. Just to clarify, did the issue still persist after you removed your offline songs? Keep us posted /MT",True,,NO
+GS_0067,premium_billing,app_bug,0.5863,ESCALATE,0.3997,,False,Intent confidence 0.59 is below threshold 0.7. Uncertain classification.,NO
+GS_0068,content_search,premium_billing,0.9863,ESCALATE,0.1965,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0069,download_offline,general_inquiry,0.4413,ESCALATE,0.2977,,False,Intent confidence 0.44 is below threshold 0.7. Uncertain classification.,NO
+GS_0070,app_bug,download_offline,0.9614,AUTO_HANDLE,0.1633,"Awesome, thanks for letting us know. Enjoy the music! https://t.co/SkdXv2BhCb /BH",True,,NO
+GS_0071,download_offline,general_inquiry,0.9905,AUTO_HANDLE,0.3524,"Hmm. What happens if you click on ""Send a private message""? A different browser can also do the trick. We'll be right here waiting /AY https://t.co/ldFdZRiNAt",True,,NO
+GS_0072,general_inquiry,download_offline,0.5016,ESCALATE,0.1629,,False,Intent confidence 0.50 is below threshold 0.7. Uncertain classification.,NO
+GS_0073,account_login,general_inquiry,0.9759,AUTO_HANDLE,0.2452,"We hear you 🎧 Rest assured, your feedback will be passed on to the right folks. In the meantime, if you have any other questions, you know where to reach us. Have a nice day /DR",True,,YES
+GS_0074,download_offline,premium_billing,0.806,ESCALATE,0.1872,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,YES
+GS_0075,premium_billing,download_offline,0.9909,AUTO_HANDLE,0.2149,"Awesome, thanks for letting us know. Give us a shout if you need us again. For now, enjoy the music! https://t.co/SkdXv2BhCb 🎶 /GT",True,,YES
+GS_0076,playback_issue,premium_billing,0.914,ESCALATE,0.178,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0077,download_offline,playback_issue,0.7627,AUTO_HANDLE,0.1959,"Sorry to hear that. Can you let us know the device, operating system, and Spotify version you're using? /JE",True,,NO
+GS_0078,content_search,download_offline,1.0,AUTO_HANDLE,0.2836,"Thanks for the heads-up. Just to clarify, did the issue still persist after you removed your offline songs? Keep us posted /MT",True,,NO
+GS_0079,premium_billing,premium_billing,0.9536,ESCALATE,0.2233,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0080,premium_billing,premium_billing,0.8507,ESCALATE,0.1909,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0081,account_login,general_inquiry,0.8876,AUTO_HANDLE,0.3006,Hmm. Could you send us a DM with your account's email address or username? We'll take a look backstage /CH https://t.co/ldFdZRiNAt,True,,NO
+GS_0082,app_bug,account_login,0.9967,ESCALATE,0.3188,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0083,download_offline,general_inquiry,0.9762,AUTO_HANDLE,0.1853,Okay. Could you DM us your account's username and email address? We'll take a look backstage /JX,True,,NO
+GS_0084,download_offline,download_offline,0.9353,AUTO_HANDLE,0.2073,We understand. Our best tech folks are on the case as we speak. Hopefully we'll have a fix soon! /PB,True,,NO
+GS_0085,account_login,download_offline,0.9976,AUTO_HANDLE,0.253,Hi Udit! We've just replied to your DM. Check it out /MC,True,,NO
+GS_0086,download_offline,account_login,0.9998,ESCALATE,0.4201,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0087,app_bug,general_inquiry,0.9937,AUTO_HANDLE,0.2183,Hi Andrew! Glad to hear everything's sorted now. Just let us know if we can help with anything else. https://t.co/m4HWSbgHVZ /PL,True,,NO
+GS_0088,download_offline,general_inquiry,0.9669,AUTO_HANDLE,0.1853,That's good to hear! Give us a shout if you need us again. Otherwise... https://t.co/SkdXv2BhCb /JO,True,,NO
+GS_0089,account_login,premium_billing,0.5076,ESCALATE,0.1917,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0090,playback_issue,general_inquiry,0.5854,ESCALATE,0.3353,,False,Intent confidence 0.59 is below threshold 0.7. Uncertain classification.,NO
+GS_0091,playback_issue,playback_issue,1.0,AUTO_HANDLE,0.1664,Hmm. Can you fire over the versions of your iOS and Spotify app? We'll see what we can suggest /PC,True,,NO
+GS_0092,general_inquiry,download_offline,0.9636,AUTO_HANDLE,0.1324,Alright! Could you DM us your Spotify account's email address or username? We'll take a look under the hood /BH https://t.co/ldFdZRiNAt,True,,NO
+GS_0093,app_bug,general_inquiry,1.0,AUTO_HANDLE,0.3467,You're welcome! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv /AP,True,,NO
+GS_0094,playback_issue,app_bug,0.8954,AUTO_HANDLE,0.2443,"Got it. Is this happening via WiFi, 3G/4G, or both? Does restarting your connection help at all? Keep us posted /NY",True,,NO
+GS_0095,app_bug,playback_issue,0.6081,ESCALATE,0.2378,,False,Intent confidence 0.61 is below threshold 0.7. Uncertain classification.,NO
+GS_0096,content_search,general_inquiry,0.999,AUTO_HANDLE,0.2459,Got it. Does logging out &gt; restarting your computer &gt; logging back in help at all? Keep us posted /MT,True,,NO
+GS_0097,playback_issue,content_search,0.7162,AUTO_HANDLE,0.2809,"That's right. No worries, we'll let the right team know it's something you'd like to see /RP",True,,NO
+GS_0098,playback_issue,playback_issue,0.9824,AUTO_HANDLE,0.1549,"Your Queue automatically plays similar songs so the music never stops, allowing you to discover... https://t.co/tRfypwKjxA 😉 /TB",True,,NO
+GS_0099,general_inquiry,general_inquiry,0.5981,ESCALATE,0.3182,,False,Intent confidence 0.60 is below threshold 0.7. Uncertain classification.,NO
+GS_0100,playback_issue,general_inquiry,0.9991,AUTO_HANDLE,0.2578,No worries! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv /RS,True,,NO
+GS_0101,app_bug,general_inquiry,0.5118,ESCALATE,0.3385,,False,Intent confidence 0.51 is below threshold 0.7. Uncertain classification.,NO
+GS_0102,premium_billing,app_bug,0.9186,AUTO_HANDLE,0.2286,"Got it.Is this happening while connected to WiFi, 3G/4G or both? /KL",True,,NO
+GS_0103,content_search,premium_billing,0.9942,ESCALATE,0.1324,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0104,playback_issue,general_inquiry,0.9998,AUTO_HANDLE,0.2621,"We understand. We don't have any updates yet, but we hope to have them as soon as we can. Let us know if there's anything else /PB",True,,NO
+GS_0105,content_search,content_search,0.9821,AUTO_HANDLE,0.7312,"Thanks. If it's not too much trouble, can you try using a difference device to see if the same thing'll happen? Let us know how it goes /DR",True,,NO
+GS_0106,playback_issue,general_inquiry,0.9278,AUTO_HANDLE,0.3204,"Got it. Due to licensing, some countries may have some music that other countries don't. Hope this clears things up /GK",True,,NO
+GS_0107,account_login,general_inquiry,0.9739,AUTO_HANDLE,0.2347,Thanks for letting us know. Fingers crossed we’ll have it available to you as soon as it’s available to us! More info here: https://t.co/0i8GpimuDa. Give us a shout if you have questions /XF,True,,YES
+GS_0108,app_bug,account_login,0.9914,ESCALATE,0.2222,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0109,general_inquiry,premium_billing,0.9998,ESCALATE,0.3612,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0110,content_search,general_inquiry,0.9997,AUTO_HANDLE,0.2221,"This isn't possible right now, but we appreciate the feedback. We'll let the right team know it's something you'd like to see /KL",True,,NO
+GS_0111,app_bug,general_inquiry,0.5193,ESCALATE,0.1905,,False,Intent confidence 0.52 is below threshold 0.7. Uncertain classification.,NO
+GS_0112,other,general_inquiry,0.9575,AUTO_HANDLE,0.1738,No worries. Feel free to check out https://t.co/RT7XNMNEAr for other sharing options. Let us know if there's anything else 🙂 /LP,True,,NO
+GS_0113,content_search,general_inquiry,1.0,AUTO_HANDLE,0.4213,Thanks for the info. We can see that the songs are fine on our end. Can you let us know what country you're currently in? /LM,True,,NO
+GS_0114,account_login,general_inquiry,0.7499,AUTO_HANDLE,0.1761,"2: in, that'd be great. We'll take a look backstage /LO https://t.co/ldFdZRiNAt",True,,NO
+GS_0115,content_search,general_inquiry,0.9558,AUTO_HANDLE,0.1596,"We have email support at https://t.co/ZgU70TbP8M, or you could also send us a DM instead with your account's email address or username /AR https://t.co/ldFdZRiNAt",True,,NO
+GS_0116,account_login,general_inquiry,0.921,AUTO_HANDLE,0.1503,"2: On a different note, we have this limitation due to licensing reasons. Let us know if we can help with anything else /RC",True,,NO
+GS_0117,playback_issue,account_login,0.988,ESCALATE,0.2069,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0118,download_offline,general_inquiry,0.9172,AUTO_HANDLE,0.1985,Thanks! Does it happen when you use the web player in an incognito or a private browsing window? /SY,True,,NO
+GS_0119,playback_issue,download_offline,0.9573,AUTO_HANDLE,0.2405,"Hmm, that's odd. Can you DM us your account's username and email address? We'll take a look backstage /MQ https://t.co/ldFdZR1cbT",True,,NO
+GS_0120,playback_issue,general_inquiry,0.6604,ESCALATE,0.1953,,False,Intent confidence 0.66 is below threshold 0.7. Uncertain classification.,NO
+GS_0121,premium_billing,general_inquiry,0.9876,AUTO_HANDLE,0.1982,Can you try reinstalling the app? Just follow the steps here: https://t.co/cxGHt0bCR8. Keep us posted /PL,True,,NO
+GS_0122,general_inquiry,premium_billing,0.9942,ESCALATE,0.1609,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0123,download_offline,general_inquiry,1.0,AUTO_HANDLE,0.522,"Awesome! If there's anything else you need, just give us a shout /TJ",True,,NO
+GS_0124,content_search,download_offline,0.9957,AUTO_HANDLE,0.1958,1: We're afraid reinstalling the app would clear your Spotify cache which means you'll need to redownload your offline tunes. You'll...,True,,NO
+GS_0125,playback_issue,general_inquiry,0.4959,ESCALATE,0.3558,,False,Intent confidence 0.50 is below threshold 0.7. Uncertain classification.,NO
+GS_0126,general_inquiry,playback_issue,0.553,ESCALATE,0.1638,,False,Intent confidence 0.55 is below threshold 0.7. Uncertain classification.,NO
+GS_0127,content_search,playback_issue,0.9997,AUTO_HANDLE,0.3313,"1: Spotify Connect lets you use the app as a remote for other devices. More info here: https://t.co/64CIqBa0nw. Also, we'd like to...",True,,NO
+GS_0128,general_inquiry,content_search,0.5204,ESCALATE,0.2718,,False,Intent confidence 0.52 is below threshold 0.7. Uncertain classification.,NO
+GS_0129,account_login,general_inquiry,0.9994,AUTO_HANDLE,0.3091,"We hear you 🎧 Rest assured, your feedback will be passed on to the right folks /DF",True,,NO
+GS_0130,app_bug,account_login,0.9787,ESCALATE,0.2464,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0131,content_search,general_inquiry,0.9991,AUTO_HANDLE,0.2087,"Awesome. If anything else comes up, just give us a shout. Happy listening 🎶 /LP",True,,NO
+GS_0132,app_bug,content_search,0.8361,AUTO_HANDLE,0.2906,"That's right. No worries, we'll let the right team know it's something you'd like to see /RP",True,,NO
+GS_0133,premium_billing,app_bug,0.9694,AUTO_HANDLE,0.2079,Got it! Can you DM us your account's username or email address? We'll take a look backstage /PL https://t.co/ldFdZRiNAt,True,,NO
+GS_0134,content_search,premium_billing,1.0,ESCALATE,0.1929,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0135,app_bug,general_inquiry,0.9801,AUTO_HANDLE,0.2337,"We're glad you like it. Thanks for the feedback, it's music to our ears 🎶 /DR",True,,NO
+GS_0136,download_offline,general_inquiry,0.5197,ESCALATE,0.3174,,False,Intent confidence 0.52 is below threshold 0.7. Uncertain classification.,NO
+GS_0137,playback_issue,download_offline,1.0,AUTO_HANDLE,0.3055,We're afraid this isn't possible as the songs you downloaded would only be saved into the Spotify app. Hope that clears things up /JE,True,,NO
+GS_0138,premium_billing,download_offline,0.9235,AUTO_HANDLE,0.2527,"Hmm. It's not ideal, but a reinstall might help. Just follow the steps here: https://t.co/EqisDMwZAT. Fingers crossed that'll do the trick /JE",True,,NO
+GS_0139,app_bug,premium_billing,1.0,ESCALATE,0.2618,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0140,download_offline,general_inquiry,0.8757,AUTO_HANDLE,0.363,"Got it. Try logging out, restarting your device, and logging back in. Does that help? /RA",True,,NO
+GS_0141,general_inquiry,download_offline,0.9969,AUTO_HANDLE,0.1544,Sounds good! Just keep us posted if the problem persists. We'll be here to help /CG,True,,NO
+GS_0142,content_search,general_inquiry,1.0,AUTO_HANDLE,0.3262,We're afraid we're unable to give you an exact date yet. Don't forget to add your email to the link we've sent earlier to get updates /MG,True,,NO
+GS_0143,app_bug,content_search,0.684,ESCALATE,0.1547,,False,Intent confidence 0.68 is below threshold 0.7. Uncertain classification.,NO
+GS_0144,app_bug,general_inquiry,0.9562,AUTO_HANDLE,0.2654,Sorry to hear that. We'd suggest getting in touch with UNiDAYS if your institution isn't being recognized. They'll be glad to help 🙂 /AU,True,,NO
+GS_0145,account_login,app_bug,0.6656,ESCALATE,0.4105,,False,Intent confidence 0.67 is below threshold 0.7. Uncertain classification.,NO
+GS_0146,account_login,account_login,0.585,ESCALATE,0.1001,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0147,account_login,app_bug,0.9998,AUTO_HANDLE,0.3041,We hear you. Could you try this out on a desktop? We'll be waiting for your reply /JQ,True,,NO
+GS_0148,premium_billing,playback_issue,0.5055,ESCALATE,0.2083,,False,Intent confidence 0.51 is below threshold 0.7. Uncertain classification.,NO
+GS_0149,premium_billing,premium_billing,0.9719,ESCALATE,0.1611,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0150,account_login,premium_billing,0.7392,ESCALATE,0.1186,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0151,app_bug,account_login,0.973,ESCALATE,0.3319,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0152,general_inquiry,general_inquiry,0.9995,AUTO_HANDLE,0.3399,"Just to check, are you able to play music fine, but the lock-screen controls are unavailable? We'll keep an eye out for your reply /MU",True,,NO
+GS_0153,app_bug,general_inquiry,0.9999,AUTO_HANDLE,0.6184,No worries! Just give us a shout if the problem persists. We're... https://t.co/zOXI69QSqg /GS,True,,NO
+GS_0154,playback_issue,premium_billing,0.8588,ESCALATE,0.2749,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0155,playback_issue,playback_issue,0.999,AUTO_HANDLE,0.148,Hmm. Can you try restarting your device by holding the Sleep/Wake + Volume Down buttons for 10 seconds? Keep us posted /LS,True,,NO
+GS_0156,account_login,playback_issue,0.9998,AUTO_HANDLE,0.1848,Can you send us the Song Link? Just tap the three dots &gt; Share &gt; Copy Link. We'll check things out /NG,True,,NO
+GS_0157,app_bug,account_login,0.999,ESCALATE,0.2609,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0158,download_offline,general_inquiry,1.0,AUTO_HANDLE,0.4213,Thanks for the info. We can see that the songs are fine on our end. Can you let us know what country you're currently in? /LM,True,,NO
+GS_0159,account_login,download_offline,0.8921,AUTO_HANDLE,0.2196,Thanks! Can you DM us your account's email address? We'll take a look backstage /JN https://t.co/ldFdZRiNAt,True,,NO
+GS_0160,account_login,playback_issue,0.8986,AUTO_HANDLE,0.2377,"That sounds like a plan. We'll be keeping an eye out for your update. In the meantime, if you have any other questions, you know where to reach us 🙂 /DR",True,,NO
+GS_0161,account_login,account_login,0.9973,ESCALATE,0.2033,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0162,content_search,general_inquiry,0.998,AUTO_HANDLE,0.1826,"For sure! If you ever need anything else, just shout and we'll come running 🏃 /AQ",True,,NO
+GS_0163,content_search,download_offline,0.9953,AUTO_HANDLE,0.2562,Awesome! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv 😁 /AU,True,,NO
+GS_0164,general_inquiry,content_search,0.8778,AUTO_HANDLE,0.2228,Hmm. Best thing to try here is a reinstall. Just follow the steps at https://t.co/EqisDMwZAT. Keep us posted! /RK,True,,NO
+GS_0165,general_inquiry,general_inquiry,1.0,AUTO_HANDLE,1.0,"You're welcome! Glad to hear it's working now. For anything else, just give us a shout. https://t.co/uEkAlnxbzn 🙂 /MU",True,,NO
+GS_0166,app_bug,account_login,0.9967,ESCALATE,0.4731,,False,Intent 'account_login' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0167,premium_billing,download_offline,0.5417,ESCALATE,0.314,,False,Intent confidence 0.54 is below threshold 0.7. Uncertain classification.,NO
+GS_0168,app_bug,general_inquiry,0.6771,ESCALATE,0.2321,,False,Intent confidence 0.68 is below threshold 0.7. Uncertain classification.,NO
+GS_0169,app_bug,app_bug,0.6078,ESCALATE,0.2888,,False,Intent confidence 0.61 is below threshold 0.7. Uncertain classification.,NO
+GS_0170,content_search,general_inquiry,0.995,AUTO_HANDLE,0.3408,Is this happening to all of your playlists or albums? Can you DM us your account's username or email? We'll check things out for you /YM https://t.co/ldFdZRiNAt,True,,NO
+GS_0171,app_bug,general_inquiry,0.9989,AUTO_HANDLE,0.2134,"We understand. Fingers crossed we'll be able to have it again soon, but there's info about Spotify content here: https://t.co/0i8GpimuDa. For anything else, let us know /GU",True,,NO
+GS_0172,premium_billing,general_inquiry,0.5315,ESCALATE,0.3403,,False,Intent confidence 0.53 is below threshold 0.7. Uncertain classification.,NO
+GS_0173,other,general_inquiry,0.7187,AUTO_HANDLE,0.2406,"Sure thing! If you need us again, you know where to find us. Enjoy your music 🎧 /JN",True,,NO
+GS_0174,playback_issue,premium_billing,0.9999,ESCALATE,0.3547,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0175,app_bug,playback_issue,0.7514,AUTO_HANDLE,0.2714,"Got it. Can you DM us your account's email address, device's make/model, OS, and Spotify version? We'll see what we can suggest /CP https://t.co/ldFdZRiNAt",True,,NO
+GS_0176,general_inquiry,app_bug,0.8492,AUTO_HANDLE,0.3096,Got it! Can you DM us your account's email address? We'll take a look under the hood /RA https://t.co/ldFdZR1cbT,True,,NO
+GS_0177,general_inquiry,general_inquiry,0.9446,AUTO_HANDLE,0.1414,No worries! Give us a shout if you need anything else /I,True,,NO
+GS_0178,download_offline,general_inquiry,1.0,AUTO_HANDLE,0.289,"Thanks for checking. Also, des this happen on cellular data, WiFi, or both? /JU",True,,NO
+GS_0179,app_bug,general_inquiry,0.5103,ESCALATE,0.311,,False,Intent confidence 0.51 is below threshold 0.7. Uncertain classification.,NO
+GS_0180,account_login,app_bug,0.9982,AUTO_HANDLE,0.4904,Alright. Could you drop us a DM? Let's carry on there /JE https://t.co/ldFdZRiNAt,True,,NO
+GS_0181,general_inquiry,general_inquiry,0.9901,AUTO_HANDLE,0.1847,Thanks for the info. Can you try signing up at https://t.co/dReeg1kWo5 using a different browser or an incognito/private window? Keep us posted /MT,True,,NO
+GS_0182,playback_issue,general_inquiry,1.0,AUTO_HANDLE,1.0,No worries! Let us know if you have any other questions 😁 /CE,True,,NO
+GS_0183,app_bug,general_inquiry,0.8923,AUTO_HANDLE,0.3071,"No problem! If you need us again, just give us a shout. https://t.co/uQiQuWow27 🙂 /NY",True,,NO
+GS_0184,account_login,general_inquiry,0.8669,AUTO_HANDLE,0.2577,"No worries at all. If you have more questions, we're just a tweet away /JP",True,,NO
+GS_0185,app_bug,general_inquiry,0.5504,ESCALATE,0.3494,,False,Intent confidence 0.55 is below threshold 0.7. Uncertain classification.,NO
+GS_0186,general_inquiry,download_offline,0.9432,AUTO_HANDLE,0.2521,Hi! We don't support apps downloaded from third-party app stores. We suggest following the steps at https://t.co/EqisDMwZAT to reinstall /CO,True,,NO
+GS_0187,premium_billing,general_inquiry,0.8419,AUTO_HANDLE,0.5241,We're afraid we don't have any info on this right now. Fingers crossed we'll be able to have it soon! /NS,True,,NO
+GS_0188,premium_billing,premium_billing,0.9689,ESCALATE,0.1776,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0189,download_offline,premium_billing,0.9996,ESCALATE,0.207,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0190,download_offline,download_offline,0.9501,AUTO_HANDLE,0.2424,"We're glad that it's working now and we apologize for the inconvenience. If you need help with anything else, just give us a shout. Otherwise, have a... https://t.co/FQulrDtFky 😉 /GU",True,,NO
+GS_0191,account_login,download_offline,0.6143,ESCALATE,0.1129,,False,Intent confidence 0.61 is below threshold 0.7. Uncertain classification.,NO
+GS_0192,download_offline,general_inquiry,0.9501,AUTO_HANDLE,0.2853,Alright. Can you send us the Song Link then? Just tap the three dots &gt; Share &gt; Copy Link. We'll have a look /AG,True,,NO
+GS_0193,content_search,download_offline,0.9996,AUTO_HANDLE,0.1892,Got it! Could you check out the steps under “Downloads unexpectedly removed” at https://t.co/38J7tFlIBF? Let us know how it goes /ZO https://t.co/ldFdZRiNAt,True,,NO
+GS_0194,playback_issue,general_inquiry,1.0,AUTO_HANDLE,0.2458,"Don't worry, we’ll have it available to you as soon as it’s available to us. There's more info here: https://t.co/0i8GpimuDa /MG",True,,NO
+GS_0195,general_inquiry,playback_issue,0.9483,AUTO_HANDLE,0.1249,Hmm. Can you DM us your account's username or email address? We'll check things out for you /YM https://t.co/ldFdZRiNAt,True,,NO
+GS_0196,account_login,general_inquiry,0.9995,AUTO_HANDLE,0.1843,"Hmm. Can you let us know your device, operating system, and Spotify version? We'll check things out /CH",True,,NO
+GS_0197,premium_billing,general_inquiry,0.9188,AUTO_HANDLE,0.4276,"Awesome! Glad to hear it's working now. If you ever need us again, just give us a shout. We'd be... https://t.co/LgAM6ky9Vv /AN",True,,NO
+GS_0198,playback_issue,premium_billing,0.9854,ESCALATE,0.1309,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0199,premium_billing,general_inquiry,0.9635,AUTO_HANDLE,0.412,Great! Glad to hear it's working. Just let us know if we can help with anything else. https://t.co/m4HWSbgHVZ /GK,True,,NO
+GS_0200,general_inquiry,premium_billing,0.9204,ESCALATE,0.208,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,NO
+GS_0201,premium_billing,general_inquiry,0.9999,AUTO_HANDLE,0.6152,No worries! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv /RS,True,,NO
+GS_0202,premium_billing,premium_billing,0.995,ESCALATE,0.2849,,False,Intent 'premium_billing' is HIGH RISK (billing/account). Requires human review regardless of confidence.,YES
