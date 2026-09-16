@@ -1,0 +1,15 @@
+Conversation Build Log
+======================
+Total brand tweets in extract:          43,265
+Brand tweets with customer parent:      11,938
+Missing/deleted customer parents:       31,213
+Duplicate pairs skipped:                0
+Final interaction records:              11,938
+
+Handling notes:
+- Tweets whose parent is not in the SpotifyCares extract are skipped
+  (parent was deleted, or belongs to a different brand thread).
+- Brand->brand reply chains are excluded (not customer interactions).
+- @mentions are stripped from text; whitespace is normalised.
+- Duplicate (customer_id, brand_id) pairs are deduplicated.
+- One level of prior context is attached where available.
